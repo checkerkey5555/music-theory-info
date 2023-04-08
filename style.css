@@ -2258,7 +2258,7 @@ textanifour::before {
 }
 
 textanifive::before {
-    content: "d888b Y8b Y8b  '88 88'  d,dP  888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888      888 888 888  888    '88 88'  ";
+    content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888 888  888    '88 88'  ";
     animation: animat 1.5s;
 		color: oldlace;
 }
@@ -2608,344 +2608,386 @@ textanisix::before {
     animation: animatrz 1.5s;
 		color: oldlace;
 }
-/*100/112*/
+/*100/126 calcuations not done yet */
 @keyframes animatrz {
     0% {
-        content: "                                                                                        888                                   ";
+        content: "                                                                                                                              ";
 				color: oldlace;
     }
     0.892857142857% {
-        content: "Y                                                                                                  88'     '88  ";
+        content: "                                                                                                                              ";
     }
     1.78571428571% {
-        content: "YP                                                                                                 88'     '88  ";
+        content: "                                                                                                                              ";
     }
     2.67857142857% {
-        content: "YP                                                                                                 88'     '88  ";
+        content: "                                                                                                                              ";
 		}
     3.57142857143% {
-        content: "YP                                                                                                 88'     '88  ";
+        content: "                                                                                                                              ";
 		}
 	  4.46428571429% {
-        content: "YP                                                                                                 88'     '88  ";
+        content: "                                                                                                                              ";
 		}
 	  5.35714285714% {
-        content: "YP                                                                                                 88'     '88  ";
+        content: "                                                                                                                              ";
 		}
 	  6.25% {
-        content: "YP                                                                                                 88'     '88  ";
+        content: "                                                                                                                              ";
 		}
 	  7.14285714286% {
-        content: "YP                                                                                                 88'     '88  ";
+        content: "                                                                                                                              ";
 		}
 	  8.03571428571% {
-        content: "YP      Y                                                                                          88'     '88  ";
+        content: "                                                                                                                              ";
 		}
 	  8.92857142857% {
-        content: "YP      Y8                                                                                         88'     '88  ";
+        content: "                                                                                                                              ";
 		}
 	  9.82142857143% {
-        content: "YP      Y88                                                                                        88'     '88  ";
+        content: "                                                                                                                              ";
 		}
 	  10.7142857143% {
-        content: "YP      Y888                                                                                       88'     '88  ";
+        content: "                                                                                                                              ";
 		}
 		11.6071428571% {
-        content: "YP      Y8888                                                                                      88'     '88  ";
+        content: "                                                                                                                              ";
 		}
 	  12.5% {
-        content: "YP      Y88888                                                                                     88'     '88  ";
+        content: "                                                                                                                              ";
 		}
 	  13.3928571429% {
-        content: "YP      Y88888P                                                                                    88'     '88  ";
+        content: "                                                                                                                              ";
 		}
 	  14.2857142857% {
-        content: "YP      Y88888P                                                                                    88'     '88  ";
+        content: "                                                                                                                              ";
 		}
 	  15.1785714286% {
-				content: "YP      Y88888P Y                                                                                  88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  16.0714285714% {
-				content: "YP      Y88888P YP                                                                                 88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  16.9642857143% {
-				content: "YP      Y88888P YP                                                                                 88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  17.8571428571% {
-				content: "YP      Y88888P YP                                                                                 88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  18.75% {
-				content: "YP      Y88888P YP  Y                                                                              88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  19.6428571429% {
-				content: "YP      Y88888P YP  YP                                                                             88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  20.5357142857% {
-				content: "YP      Y88888P YP  YP                                                                             88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  21.4285714286% {
-				content: "YP      Y88888P YP  YP                                                                             88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  22.3214285714% {
-				content: "YP      Y88888P YP  YP  Y                                                                          88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  23.2142857143% {
-				content: "YP      Y88888P YP  YP  YP                                                                         88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  24.1071428571% {
-				content: "YP      Y88888P YP  YP  YP                                                                         88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  25% {
-				content: "YP      Y88888P YP  YP  YP Y                                                                       88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  25.8928571429% {
-				content: "YP      Y88888P YP  YP  YP Y8                                                                      88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  26.7857142857% {
-				content: "YP      Y88888P YP  YP  YP Y8u                                                                     88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  27.6785714286% {
-				content: "YP      Y88888P YP  YP  YP Y8uw                                                                    88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  28.5714285714% {
-				content: "YP      Y88888P YP  YP  YP Y8uwu                                                                   88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  29.4642857143% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP                                                                  88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  30.3571428571% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'                                                                 88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  31.25% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'                                                                 88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  32.1428571429% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'                                                                 88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  33.0357142857% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `                                                              88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  33.9285714286% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `Y                                                             88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  34.8214285714% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `Yb                                                            88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  35.7142857143% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `Ybd                                                           88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  36.6071428571% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP                                                          88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  37.5% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'                                                         88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  38.3928571429% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'                                                         88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  39.2857142857% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'                                                         88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  40.1785714286% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'                                                         88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  41.0714285714% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'                                                         88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  41.9642857143% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'                                                         88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  42.8571428571% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     Y                                                   88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  43.75% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP                                                  88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  44.6428571429% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP                                                  88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  45.5357142857% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP                                                  88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  46.4285714286% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP                                                  88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  47.3214285714% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP                                                  88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  48.2142857143% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP                                                  88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  49.1071428571% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP                                                  88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  50% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP                                                  88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  50.8928571428% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP                                                  88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  51.7857142857% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP                                                  88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  52.6785714286% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP                                                  88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  53.5714285714% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `                                       88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  54.4642857143% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8                                      88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  55.3571428571% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b                                     88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  56.25% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8                                    88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  57.1428571428% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8'                                   88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  58.0357142857% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8'                                   88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  58.9285714286% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `                                 88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  59.8214285714% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8                                88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  60.7142857143% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d                               88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  61.6071428571% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8                              88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  62.5% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'                             88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  63.3928571428% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'                             88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  64.2857142857% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'                             88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  65.1785714286% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y                          88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  66.0714285714% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y8                         88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  66.9642857143% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y88                        88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  67.8571428571% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888                       88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  68.75% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y8888                      88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  69.6428571428% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y88888                     88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  70.5357142857% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888                    88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  71.4285714286% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P                   88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  72.3214285714% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P                   88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  73.2142857143% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P Y                 88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  74.1071428571% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP                88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  75% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP                88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  75.8928571428% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP                88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  76.7857142857% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP                88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  77.6785714286% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   Y            88'     '88  ";
+				content: "                                                                                                                              ";
 		}
 	  78.5714285714% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD           88'     '88  ";
+				content: "                                                                                        888                                   ";
 		}
 	  79.4642857143% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD           88'     '88  ";
+				content: "                                                                                        888                                   ";
 		}
 	  80.3571428571% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y         88'     '88  ";
+				content: "                                                                                        888                                   ";
 		}
 	  81.25% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y8        88'     '88  ";
+				content: "                                                                                        888                                   ";
 		}
 	  82.1428571428% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y88       88'     '88  ";
+				content: "                                                                                        888                                   ";
 		}
 	  83.0357142857% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888      88'     '88  ";
+				content: "                                                                                        888                                   ";
 		}
 	  83.9285714286% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y8888     88'     '88  ";
+				content: "                                                                                        888                                   ";
 		}
 	  84.8214285714% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y88888    88'     '88  ";
+				content: "                                                                                        888                                   ";
 		}
 	  85.7142857143% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888   88'     '88  ";
+				content: "                                                                                        888                                   ";
 		}
 	  86.6071428571% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+				content: "                                                                                        888                                   ";
 		}
 	  87.5% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+				content: "                                                                                        888                                   ";
 		}
 	  88.3928571428% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+				content: "                                                                                        888                                   ";
 		}
 	  89.2857142857% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+				content: "                                                                                        888                                   ";
 		}
 	  90.1785714286% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+				content: "                                                                                        888                                   ";
 		}
 	  91.0714285714% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+				content: "                                                                                        888                                   ";
 		}
 	  91.9642857143% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+				content: "                                                                                        888                                   ";
 		}
 	  92.8571428571% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+				content: "                                                                                        888                                   ";
 		}
 	  93.75% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+				content: "                                                                                        888                                   ";
 		}
 	  94.6428571428% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+				content: "                                                                                        888                                   ";
 		}
 	  95.5357142857% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+				content: "                                                                                        888                                   ";
 		}
 	  96.4285714286% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+				content: "                                                                                        888                                   ";
 		}
 	  97.3214285714% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+				content: "                                                                                        888                                   ";
 		}
 	  98.2142857143% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+				content: "                                                                                        888                                   ";
 		}
 	  99.1071428571% {
-				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+				content: "                                                                                        888                                   ";
+		}
+	  99.1071428571% {
+				content: "                                                                                        888                                   ";
+		}
+	  99.1071428571% {
+				content: "                                                                                        888                                   ";
+		}
+	  99.1071428571% {
+				content: "                                                                                        888                                   ";
+		}
+	  99.1071428571% {
+				content: "                                                                                        888                                   ";
+		}
+	  99.1071428571% {
+				content: "                                                                                        888                                   ";
+		}
+	  99.1071428571% {
+				content: "                                                                                        888                                   ";
+		}
+	  99.1071428571% {
+				content: "                                                                                        888                                   ";
+		}
+	  99.1071428571% {
+				content: "                                                                                        888                                   ";
+		}
+	  99.1071428571% {
+				content: "                                                                                        888                                   ";
+		}
+	  99.1071428571% {
+				content: "                                                                                        888                                   ";
+		}
+	  99.1071428571% {
+				content: "                                                                                        888                                   ";
+		}
+	  99.1071428571% {
+				content: "                                                                                        888                                   ";
+		}
+	  99.1071428571% {
+				content: "                                                                                        888                                   ";
+		}
+	  99.1071428571% {
+				content: "                                                                                        888                                   ";
 		}
 }
 
@@ -3566,6 +3608,6 @@ spiralfifthtyone::before {
    d8b d8b    888   888  dP"Y  "   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    "  888 8e   8b "   e88 88e  
   e Y8b Y8b   888   888 C88b  888 d88   '8   d88888 888 88b d88 88b d88   88b 888 "   Y8b Y8P    888 888 88b 888888 d88   88b 
  d8b Y8b Y8b  Y88   88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P 
-d888b Y8b Y8b  "88 88"  d,dP  888  "88,e8'    888   888 888  "YeeP"  "88 88"  888       888      888 888 888  888    "88 88"  
+d888b Y8b Y8b  "88 88"  d,dP .888  "88,e8'    888   888 888  "YeeP"  "88 88"  888       888     .888 888 888  888    "88 88"  
                                                                                         888                                   
                                                                                         888                                   
