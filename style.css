@@ -1,0 +1,3553 @@
+/* LINK COSTUMISATION */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+  color: orangered;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: orangered;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orangered;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: orangered;
+  background-color: yellow;
+  text-decoration: underline;
+}
+
+/* DROP DOWN MENU CODE =================== */ 
+
+
+.dropbtn {
+    background-color: black;
+    color: orangered;
+    font-family: monospace;
+    border-color: floralwhite;
+}
+
+.dropdown {
+    position: relative;
+    display:inline-block;
+}
+
+.dropdown-content {
+    display:none;
+    position:absolute;
+    background-color: black;
+		bottom: 
+    min-width: 140px;
+    z-index: 100;
+	 
+}
+
+.dropdown-content a {
+    color:orangered;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {text-decoration: underline; color: lawngreen}
+.dropdown:hover .dropdown-content {display:block;}
+.dropdown:hover .dropbtn {background-color: black;color: lawngreen;text-decoration: underline;}
+
+/* TITLES =================== */ 
+
+mark {
+  background-color: black; 
+	color: yellow;
+	font-family: AirAmericanaDEMO-Light
+}
+
+smark {
+  background-color: orangered; 
+	color: black;
+}
+
+/* WARNINGS ================== */ 
+
+wmark {
+  background-color: red;
+  color: black;
+}
+
+/* LOGO ====================== */
+
+lmark1 {
+  background-color: ; 
+	color: #36D0B7;
+}
+
+lmark2 {
+  background-color: ; 
+	color: #47DC78;
+}
+
+lmark3 {
+  background-color: ; 
+	color: #FA815F;
+}
+
+lmark4 {
+  background-color: ; 
+	color: #D51010;
+}
+
+lmark5 {
+  background-color: ; 
+	color: #FFBE0D;
+}
+
+/* BOOKMARK LOGO ====================== */
+
+blmark1 {
+  background-color: ; 
+	color: #775007;
+}
+
+blmark2 {
+  background-color: ; 
+	color: #5b3d05;
+}
+
+blmark3 {
+  background-color: ; 
+	color: #483004;
+}
+
+blmark4 {
+  background-color: ; 
+	color: #3f2a03;
+}
+
+blmark5 {
+  background-color: ; 
+	color: #381f06;
+}
+
+blmark6 {
+  background-color: ; 
+	color: #cb6a15;
+}
+
+/* MUSIC LOGO ====================== */
+
+wlmark1 {
+  background-color: ; 
+	color: #FBBF60;
+}
+
+wlmark2 {
+  background-color: ; 
+	color: #E89005;
+}
+
+wlmark3 {
+  background-color: ; 
+	color: #EC7505;
+}
+
+wlmark4 {
+  background-color: ; 
+	color: #D84A05;
+}
+
+wlmark5 {
+  background-color: ; 
+	color: #F42B03;
+}
+
+wlmark6 {
+  background-color: ; 
+	color: #E70E02;
+}
+
+/* little strip for the thingy ====================== */
+
+xqmark1 {
+	color: #333277;
+}
+
+xqmark2 {
+	color: #fdea2c;
+}
+
+xqmark3 {
+	color: #ffbd08;
+}
+
+xqmark4 {
+	color: #c8c8c8;
+}
+
+xqmark5 {
+	color: #5e5e5e;
+}
+
+/* ------------------------ */
+
+pqmark1 {
+  background-color: ; 
+	color: #ffd4e5;
+}
+
+pqmark2 {
+  background-color: ; 
+	color: #d4ffea;
+}
+
+pqmark3 {
+  background-color: ; 
+	color: #eecbff;
+}
+
+pqmark4 {
+  background-color: ; 
+	color: #feffa3;
+}
+
+pqmark5 {
+  background-color: ; 
+	color: #dbdcff;
+}
+
+/* ------------------------ */
+
+oqmark1 {
+  background-color: ; 
+	color: #ffd319;
+}
+
+oqmark2 {
+  background-color: ; 
+	color: #ff901f;
+}
+
+oqmark3 {
+  background-color: ; 
+	color: #ff2975;
+}
+
+oqmark4 {
+  background-color: ; 
+	color: #f222ff;
+}
+
+oqmark5 {
+  background-color: ; 
+	color: #8c1eff;
+}
+
+/* Block Colours == not working yet ============ */
+
+markred {
+  background-color: red; 
+	color: red;
+}
+
+markwhite {
+  background-color: white ; 
+	color: white;
+}
+
+/* EMOTICON ANIMATION ====================== */
+
+/* info: ok so the things that have to be unique:
+in a certian page is the aniemoinsert: before
+and the animate function ok (: */
+
+aniemoone::before {
+    content: "/(^u^)/";
+    animation: animateh infinite 1s;
+		color: lightpink;
+}
+
+@keyframes animateh {
+  
+    0% {
+        content: "/(^u^)/";
+      }
+
+    25% {
+        content: "|(^u^)|";
+      }
+
+    50% {
+        content: "\\(^u^)\\";
+		}
+
+    75% {
+				content: "|(^u^)|";
+			}
+
+}
+
+aniemotwo::before {
+    content: "<('.'-^)";
+    animation: animate infinite 1s;
+		color: ghostwhite;
+}
+@keyframes animate {
+    0% {
+        content: "<('.'-^)";
+      }
+    25% {
+        content: "(^-'.'-^)";
+      }
+    50% {
+        content: "(^-'.')>";
+		}
+    75% {
+				content: "(^-'.'-^)";
+			}
+}
+
+aniemothree::before {
+    content: "¯\\_(ツ)_/¯";
+    animation: animate infinite 6s;
+		color: ghostwhite;
+}
+@keyframes animate {
+    0% {
+        content: "¯\\_(ツ)_/¯";
+      }
+    25% {
+        content: "--_(ツ)_--";
+      }
+    50% {
+        content: ".-_(ツ)_-.";
+      }
+    75% {
+        content: "--_(ツ)_--";
+		}
+}
+
+aniemofour::before {
+    content: "(´∀｀)*";
+    animation: animate infinite 6s;
+		color: ghostwhite;
+}
+@keyframes animate {
+    0% {
+        content: "(´∀｀)*";
+      }
+    25% {
+        content: "(´v｀) *";
+      }
+    50% {
+        content: "(´v｀)*";
+      }
+    75% {
+        content: "(´∀｀) *";
+		}
+}
+
+aniemofive::before {
+    content: "uwu";
+    animation: animateawdawd infinite 1s;
+		color: red;
+	  background-color: black; 
+}
+@keyframes animateawdawd {
+    0% {
+        content: "uwu";
+      }
+    25% {
+        content: "UwU";
+      }
+    50% {
+        content: "UWU";
+      }
+    75% {
+        content: "uWu";
+		}
+}
+
+aniemosix::before {
+    content: ":0";
+    animation: animatez infinite 1s;
+		color: black;
+	  background-color: yellow; 
+}
+@keyframes animatez {
+    0% {
+        content: ":O";
+      }
+    25% {
+        content: ":o";
+      }
+    50% {
+        content: ":.";
+      }
+    75% {
+        content: ":o";
+		}
+}
+
+aniemoseven::before {
+    content: ":3 ";
+    animation: animater infinite 1s;
+		color: ghostwhite;
+	  background-color: black; 
+}
+@keyframes animater {
+    0% {
+        content: ":3 ";
+      }
+    25% {
+        content: ": 3";
+      }
+    50% {
+        content: ": 3";
+      }
+    75% {
+        content: ":3 ";
+		}
+}
+
+aniemoeight::before {
+    content: "(╯°□°）╯︵ ┻━┻ ";
+    animation: animata infinite 1s;
+		color: black;
+	  background-color: yellow; 
+}
+@keyframes animata {
+    0% {
+        content: "(╯°□°）╯︵ ┻━┻ ";
+      }
+    25% {
+        content: "(╯O□O）╯︵  ┻━┻";
+      }
+    50% {
+        content: "(╯°□°）╯︵  ┻━┻";
+      }
+    75% {
+        content: "(╯O□O）╯︵ ┻━┻ ";
+		}
+}
+
+aniemonine::before {
+    content: "@";
+    animation: animatar infinite 1s;
+		color: yellow;
+}
+@keyframes animatar {
+    0% {
+        content: "@";
+				color: yellow;
+      }
+    25% {
+        content: "@";
+				color: #757500;
+      }
+    50% {
+        content: "@";
+				color: #ffff3e;
+      }
+    75% {
+				color: #ffff9d;
+        content: "@";
+		}
+}
+
+aniemoten::before {
+    content: "  (⍁w⍂)";
+    animation: animate infinite 1s;
+		color: ghostwhite;
+}
+@keyframes animate {
+    0% {
+        content: "  (⍁w⍂)";
+      }
+    25% {
+        content: " c(⍁w⍂)>";
+      }
+    50% {
+        content: "c (⍁w⍂) >";
+      }
+    75% {
+        content: " c(⍁w⍂)>)";
+		}
+}
+
+aniemoeleven::before {
+    content: "-";
+    animation: animate infinite 0.50s;
+		color: ghostwhite;
+}
+@keyframes animate {
+    0% {
+        content: "/";
+      }
+    25% {
+        content: "|";
+      }
+    50% {
+        content: "\";
+      }
+    75% {
+        content: "-";
+		}
+}
+
+aniemotwelve::before {
+    content: " b(￣▽￣)d ";
+    animation: animath infinite 0.50s;
+		color: lightpink;
+}
+@keyframes animath {
+    0% {
+        content: " b(￣▽￣)d ";
+      }
+    25% {
+        content: "b (￣▽￣) d";
+      }
+    50% {
+        content: "b (￣▽￣) d";
+      }
+    75% {
+        content: " b(￣▽￣)d ";
+		}
+}
+
+aniemothirteen::before {
+    content: " (◑﹏◐)?  ";
+    animation: animathe infinite 2s;
+		background-color: black;
+		color: yellow;
+}
+@keyframes animathe { 
+    0% {
+        content: " (◑﹏◐)?  ";
+      }
+    25% {
+        content: " ( ◑﹏◐)? ";
+      }
+    50% {
+        content: " (◑﹏◐) ? ";
+      }
+    75% {
+        content: " (◑ ﹏◐)? ";
+			}
+}
+
+aniemofourteen::before {
+    content: "o(≧u≦)o";
+    animation: animatheg infinite 0.7s;
+		background-color: black;
+		color: yellow;
+}
+@keyframes animatheg { 
+    0% {
+        content: "o(≧u≦)o";
+      }
+    25% {
+        content: "o(≧u≦)O";
+      }
+    50% {
+        content: "O(≧u≦)o";
+      }
+    75% {
+        content: "O(≧U≦)O";
+			}
+}
+
+aniemofifthteen::before {
+    content: "(❁´◡`❁)";
+    animation: animathege infinite 0.7s;
+		background-color: black;
+		color: yellow;
+}
+@keyframes animathege { 
+    0% {
+        content: "(❁´◡`❁)";
+      }
+    25% {
+        content: "(❁´u`❁)";
+      }
+    50% {
+        content: "(❁´U`❁)";
+      }
+    75% {
+        content: "(❁´◡`❁)";
+			}
+}
+
+aniemosixteen::before {
+    content: " щ(ʘ╻ʘ)щ ";
+    animation: animathehe infinite 0.7s;
+		background-color: black;
+		color: yellow;
+}
+@keyframes animathehe { 
+    0% {
+        content: "щ(ʘ╻ʘ) щ ";
+      }
+    25% {
+        content: "щ (ʘ╻ʘ)щ ";
+      }
+    50% {
+				content: "щ (ʘ╻ʘ) щ";
+      }
+    75% {
+        content: "щ (ʘ╻ʘ)щ ";
+			}
+}
+
+aniemoseventeen::before {
+    content: " ᕦ(òuó)ᕤ ";
+    animation: animaterrys infinite 1s;
+		color: yellow;
+}
+@keyframes animaterrys {
+    0% {
+        content: " ᕦ(òuó)ᕤ ";
+      }
+    25% {
+        content: " ᕦ(òUó)ᕤ ";
+      }
+    50% {
+        content: "ᕦ (òUó) ᕤ";
+      }
+    60% {
+        content: " ᕦ(òuó)ᕤ ";
+      }
+}
+
+aniemoeighteen::before {
+    content: " ˋ(^ ▽、^) ";
+    animation: animatetrys infinite 1s;
+		color: black;
+}
+@keyframes animatetrys {
+    0% {
+        content: "ˋ (^ ▽、^) ";
+      }
+    25% {
+        content: "ˋ (^ ▽、^) ";
+      }
+    50% {
+        content: " ˋ(^ ▽、^) ";
+      }
+    60% {
+        content: " ˋ(^ ▽、^) ";
+      }
+}
+
+aniemonineteen::before {
+    content: "( ˇ෴ˇØ) ";
+    animation: animatetryass infinite 1s;
+		color: yellow;
+}
+@keyframes animatetryass {
+    0% {
+        content: "( ˇ෴ˇØ)/";
+      }
+    25% {
+        content: "( ˇ෴ˇØ)7";
+      }
+    50% {
+        content: "( ˇ෴ˇØ)/";
+      }
+    60% {
+        content: "( ˇ෴ˇØ) ";
+      }
+}
+
+aniemotwenty::before {
+    content: "(oﾟvﾟ)ノ ";
+    animation: aiimatetryass infinite 1s;
+		color: lightpink;
+}
+@keyframes aiimatetryass {
+    0% {
+        content: "(oﾟvﾟ)ノ ";
+      }
+    25% {
+        content: "(oﾟvﾟ) ノ";
+      }
+    50% {
+        content: "(oﾟvﾟ) ノ";
+      }
+    60% {
+        content: "(oﾟvﾟ)ノ ";
+      }
+}
+
+aniemotwentyone::before {
+    animation: aiimatetryasss infinite 1s;
+		color: lightpink;
+    content: "(╯▽╰ ')";
+}
+@keyframes aiimatetryasss {
+    0% {
+        content: "(╯▽╰ ')";
+      }
+    25% {
+        content: "(╯▽╰ #)";
+      }
+    50% {
+        content: "(╯▽╰ #)";
+      }
+    60% {
+        content: "(╯▽╰ *)";
+      }
+}
+
+aniemotwentytwo::before {
+    content: "o(≧u≦)o";
+    animation: animathegjk infinite 0.7s;
+		color: lightpink;
+}
+@keyframes animathegjk { 
+    0% {
+        content: "o(≧u≦)o";
+      }
+    25% {
+        content: "o(≧u≦)O";
+      }
+    50% {
+        content: "O(≧u≦)o";
+      }
+    75% {
+        content: "O(≧U≦)O";
+			}
+}
+
+aniemotwentythree::before {
+    content: "(0u0)b ";
+    animation: animatheghgjk infinite 0.7s;
+		color: lightpink;
+}
+@keyframes animatheghgjk { 
+    0% {
+        content: "(0u0)b ";
+      }
+    25% {
+        content: "(0u0) b";
+      }
+    50% {
+        content: "(0U0) b";
+      }
+    75% {
+        content: "(0U0)b ";
+			}
+}
+
+aniemotwentyfour::before {
+    content: "(>'u')b ";
+    animation: animty infinite 0.7s;
+		color: lightpink;
+}
+@keyframes animty { 
+    0% {
+        content: "(>'u')b ";
+      }
+    25% {
+        content: "(>'v') b";
+      }
+    50% {
+        content: "(>'v') b";
+      }
+    75% {
+        content: "(>'u')b ";
+			}
+}
+
+aniemotwentyfive::before {
+    content: "(★‿★)";
+    animation: animtty infinite 0.7s;
+		color: yellow;
+}
+@keyframes animtty { 
+    0% {
+        content: "(★‿★)";}
+    25% {
+        content: "(✯◡✯)";}
+    50% {
+        content: "(☆◡☆)";}
+    75% {
+        content: "(✹‿✹)";}
+}
+
+aniemotwentysix::before {
+    content: "(*≧o≦))('▽`* )ゞ ";
+    animation: animttyy infinite 1.2s;
+		color: yellow;
+}
+@keyframes animttyy { 
+    0% {
+        content: "(*≧o≦))('▽`~ )ゞ";}
+    25% {
+        content: "(#≧u≦))('o`* ) 7";}
+    50% {
+        content: "(#≧U≦))('▽`~ )7";}
+    75% {
+        content: "(*≧u≦))('O`* )ゞ";}
+}
+
+aniemotwentyseven::before {
+    content: "(OuO)";
+    animation: animttyyx infinite 1.2s;
+		color: lightpink;
+}
+@keyframes animttyyx { 
+    0% {
+        content: "(OuO)";}
+    25% {
+        content: "(OUO)";}
+    50% {
+        content: "(OvO)";}
+    75% {
+        content: "(OUO)";}
+}
+
+
+/* text flipper ============ */
+
+span.tf {
+  writing-mode: vertical-rl;
+}
+
+/* IMAGE EXPANSION DIV */
+
+.div{
+  background: orangered;
+		position: relative; left: 20px; top: 0px;
+		width: 25px;
+		height: 25px;
+  transition: height + width 2s;
+  transition:  1s;
+}
+.div:hover {     
+	background-image: url(first-thigh-garter.png);
+  width: 1610px;
+	height: 1520px;
+}	
+
+.div2{
+  background: orangered;
+		position: relative; left: 20px; top: 0px;
+		width: 25px;
+		height: 25px;
+  transition: height + width 2s;
+  transition:  1s;
+}
+.div2:hover{     
+	background-image: url(hygene.png);
+  width: 1610px;
+	height: 1520px;
+}	
+
+/* ANIMATION OF TEXT */
+
+textani::before {
+    content: "    e   e                     ,e,              d8   888                                          ,e,          dP,e,           ";
+    animation: animater 1.5s;
+		color: oldlace;
+}
+
+/*100/112*/
+@keyframes animater {
+    0% {
+        content: "    e   e                     ,e,              d8   888                                          ,e,          dP,e,           ";
+				color: oldlace;
+    }
+    0.892857142857% {
+        content: "    e   e                     ,e,              d8   888                                          ,e,          dP,e,           ";
+    }
+    1.78571428571% {
+        content: "d8                                                                                                         88888";
+    }
+    2.67857142857% {
+        content: "d88                                                                                                        88888";
+		}
+    3.57142857143% {
+        content: "d888                                                                                                       88888";
+		}
+	  4.46428571429% {
+        content: "d8888                                                                                                      88888";
+		}
+	  5.35714285714% {
+        content: "d88888                                                                                                     88888";
+		}
+	  6.25% {
+        content: "d88888b                                                                                                    88888";
+		}
+	  7.14285714286% {
+        content: "d88888b                                                                                                    88888";
+		}
+	  8.03571428571% {
+        content: "d88888b d                                                                                                  88888";
+		}
+	  8.92857142857% {
+        content: "d88888b d8                                                                                                 88888";
+		}
+	  9.82142857143% {
+        content: "d88888b d88                                                                                                88888";
+		}
+	  10.7142857143% {
+        content: "d88888b d888                                                                                               88888";
+		}
+		11.6071428571% {
+        content: "d88888b d8888                                                                                              88888";
+		}
+	  12.5% {
+        content: "d88888b d88888                                                                                             88888";
+		}
+	  13.3928571429% {
+        content: "d88888b d88888b                                                                                            88888";
+		}
+	  14.2857142857% {
+        content: "d88888b d88888b                                                                                            88888";
+		}
+	  15.1785714286% {
+				content: "d88888b d88888b .                                                                                          88888";
+		}
+	  16.0714285714% {
+				content: "d88888b d88888b .8                                                                                         88888";
+		}
+	  16.9642857143% {
+				content: "d88888b d88888b .88                                                                                        88888";
+		}
+	  17.8571428571% {
+				content: "d88888b d88888b .88b                                                                                       88888";
+		}
+	  18.75% {
+				content: "d88888b d88888b .88b                                                                                       88888";
+		}
+	  19.6428571429% {
+				content: "d88888b d88888b .88b                                                                                       88888";
+		}
+	  20.5357142857% {
+				content: "d88888b d88888b .88b  d                                                                                    88888";
+		}
+	  21.4285714286% {
+				content: "d88888b d88888b .88b  d8                                                                                   88888";
+		}
+	  22.3214285714% {
+				content: "d88888b d88888b .88b  d88                                                                                  88888";
+		}
+	  23.2142857143% {
+				content: "d88888b d88888b .88b  d88.                                                                                 88888";
+		}
+	  24.1071428571% {
+				content: "d88888b d88888b .88b  d88.                                                                                 88888";
+		}
+	  25% {
+				content: "d88888b d88888b .88b  d88. d                                                                               88888";
+		}
+	  25.8928571429% {
+				content: "d88888b d88888b .88b  d88. d8                                                                              88888";
+		}
+	  26.7857142857% {
+				content: "d88888b d88888b .88b  d88. d88                                                                             88888";
+		}
+	  27.6785714286% {
+				content: "d88888b d88888b .88b  d88. d888                                                                            88888";
+		}
+	  28.5714285714% {
+				content: "d88888b d88888b .88b  d88. d8888                                                                           88888";
+		}
+	  29.4642857143% {
+				content: "d88888b d88888b .88b  d88. d8888b                                                                          88888";
+		}
+	  30.3571428571% {
+				content: "d88888b d88888b .88b  d88. d8888b.                                                                         88888";
+		}
+	  31.25% {
+				content: "d88888b d88888b .88b  d88. d8888b.                                                                         88888";
+		}
+	  32.1428571429% {
+				content: "d88888b d88888b .88b  d88. d8888b.                                                                         88888";
+		}
+	  33.0357142857% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .                                                                      88888";
+		}
+	  33.9285714286% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d                                                                     88888";
+		}
+	  34.8214285714% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d8                                                                    88888";
+		}
+	  35.7142857143% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88                                                                   88888";
+		}
+	  36.6071428571% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b                                                                  88888";
+		}
+	  37.5% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.                                                                 88888";
+		}
+	  38.3928571429% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.                                                                 88888";
+		}
+	  39.2857142857% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.                                                                 88888";
+		}
+	  40.1785714286% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  d                                                              88888";
+		}
+	  41.0714285714% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db                                                             88888";
+		}
+	  41.9642857143% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db                                                             88888";
+		}
+	  42.8571428571% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db                                                             88888";
+		}
+	  43.75% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db                                                             88888";
+		}
+	  44.6428571429% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db                                                             88888";
+		}
+	  45.5357142857% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    d                                                        88888";
+		}
+	  46.4285714286% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db                                                       88888";
+		}
+	  47.3214285714% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db                                                       88888";
+		}
+	  48.2142857143% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db                                                       88888";
+		}
+	  49.1071428571% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db                                                       88888";
+		}
+	  50% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db                                                       88888";
+		}
+	  50.8928571428% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db                                                       88888";
+		}
+	  51.7857142857% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db                                                       88888";
+		}
+	  52.6785714286% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      d                                                88888";
+		}
+	  53.5714285714% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db                                               88888";
+		}
+	  54.4642857143% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db                                               88888";
+		}
+	  55.3571428571% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db                                               88888";
+		}
+	  56.25% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db                                               88888";
+		}
+	  57.1428571428% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d                                           88888";
+		}
+	  58.0357142857% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b                                         88888";
+		}
+	  58.9285714286% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b                                         88888";
+		}
+	  59.8214285714% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b                                         88888";
+		}
+	  60.7142857143% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b                                         88888";
+		}
+	  61.6071428571% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b                                         88888";
+		}
+	  62.5% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   d                                     88888";
+		}
+	  63.3928571428% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db                                    88888";
+		}
+	  64.2857142857% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db                                    88888";
+		}
+	  65.1785714286% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d                                  88888";
+		}
+	  66.0714285714% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d8                                 88888";
+		}
+	  66.9642857143% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d88                                88888";
+		}
+	  67.8571428571% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888                               88888";
+		}
+	  68.75% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d8888                              88888";
+		}
+	  69.6428571428% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d88888                             88888";
+		}
+	  70.5357142857% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888                            88888";
+		}
+	  71.4285714286% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b                           88888";
+		}
+	  72.3214285714% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b                           88888";
+		}
+	  73.2142857143% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b d                         88888";
+		}
+	  74.1071428571% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db                        88888";
+		}
+	  75% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db                        88888";
+		}
+	  75.8928571428% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db                        88888";
+		}
+	  76.7857142857% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db                        88888";
+		}
+	  77.6785714286% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db                        88888";
+		}
+	  78.5714285714% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db   d                    88888";
+		}
+	  79.4642857143% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db   dD                   88888";
+		}
+	  80.3571428571% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db   dD                   88888";
+		}
+	  81.25% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db   dD d                 88888";
+		}
+	  82.1428571428% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db   dD d8                88888";
+		}
+	  83.0357142857% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db   dD d88               88888";
+		}
+	  83.9285714286% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db   dD d888              88888";
+		}
+	  84.8214285714% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db   dD d8888             88888";
+		}
+	  85.7142857143% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db   dD d88888            88888";
+		}
+	  86.6071428571% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db   dD d888888           88888";
+		}
+	  87.5% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db   dD d888888b          88888";
+		}
+	  88.3928571428% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db   dD d888888b          88888";
+		}
+	  89.2857142857% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db   dD d888888b          88888";
+		}
+	  90.1785714286% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db   dD d888888b          88888";
+		}
+	  91.0714285714% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db   dD d888888b          88888";
+		}
+	  91.9642857143% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db   dD d888888b          88888";
+		}
+	  92.8571428571% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db   dD d888888b          88888";
+		}
+	  93.75% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db   dD d888888b          88888";
+		}
+	  94.6428571428% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db   dD d888888b          88888";
+		}
+	  95.5357142857% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db   dD d888888b          88888";
+		}
+	  96.4285714286% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db   dD d888888b          88888";
+		}
+	  97.3214285714% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db   dD d888888b          88888";
+		}
+	  98.2142857143% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db   dD d888888b          88888";
+		}
+	  99.1071428571% {
+				content: "d88888b d88888b .88b  d88. d8888b.  .d88b.  db    db      db   d8b   db d888888b db   dD d888888b          88888";
+		}
+}
+
+textanitwo::before {
+    content: "   d8b d8b    888   888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";
+    animation: animaters 1.5s;
+		color: oldlace;
+}
+/*100/112*/
+@keyframes animaters {
+    0% {
+        content: "   d8b d8b    888   888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";
+				color: oldlace;
+    }
+    0.892857142857% {
+        content: "   d8b d8b    888   888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";
+    }
+    1.78571428571% {
+        content: "88                                                                                                          ,888";
+    }
+    2.67857142857% {
+        content: "88'                                                                                                         ,888";
+		}
+    3.57142857143% {
+        content: "88'                                                                                                         ,888";
+		}
+	  4.46428571429% {
+        content: "88'                                                                                                         ,888";
+		}
+	  5.35714285714% {
+        content: "88'                                                                                                         ,888";
+		}
+	  6.25% {
+        content: "88'                                                                                                         ,888";
+		}
+	  7.14285714286% {
+        content: "88'                                                                                                         ,888";
+		}
+	  8.03571428571% {
+        content: "88'     8                                                                                                   ,888";
+		}
+	  8.92857142857% {
+        content: "88'     88                                                                                                  ,888";
+		}
+	  9.82142857143% {
+        content: "88'     88'                                                                                                 ,888";
+		}
+	  10.7142857143% {
+        content: "88'     88'                                                                                                 ,888";
+		}
+		11.6071428571% {
+        content: "88'     88'                                                                                                 ,888";
+		}
+	  12.5% {
+        content: "88'     88'                                                                                                 ,888";
+		}
+	  13.3928571429% {
+        content: "88'     88'                                                                                                 ,888";
+		}
+	  14.2857142857% {
+        content: "88'     88'                                                                                                 ,888";
+		}
+	  15.1785714286% {
+				content: "88'     88'     8                                                                                           ,888";
+		}
+	  16.0714285714% {
+				content: "88'     88'     88                                                                                          ,888";
+		}
+	  16.9642857143% {
+				content: "88'     88'     88'                                                                                         ,888";
+		}
+	  17.8571428571% {
+				content: "88'     88'     88'Y                                                                                        ,888";
+		}
+	  18.75% {
+				content: "88'     88'     88'Yb                                                                                       ,888";
+		}
+	  19.6428571429% {
+				content: "88'     88'     88'Ybd                                                                                      ,888";
+		}
+	  20.5357142857% {
+				content: "88'     88'     88'YbdP                                                                                     ,888";
+		}
+	  21.4285714286% {
+				content: "88'     88'     88'YbdP`                                                                                    ,888";
+		}
+	  22.3214285714% {
+				content: "88'     88'     88'YbdP`8                                                                                   ,888";
+		}
+	  23.2142857143% {
+				content: "88'     88'     88'YbdP`88                                                                                  ,888";
+		}
+	  24.1071428571% {
+				content: "88'     88'     88'YbdP`88                                                                                  ,888";
+		}
+	  25% {
+				content: "88'     88'     88'YbdP`88 8                                                                                ,888";
+		}
+	  25.8928571429% {
+				content: "88'     88'     88'YbdP`88 88                                                                               ,888";
+		}
+	  26.7857142857% {
+				content: "88'     88'     88'YbdP`88 88                                                                               ,888";
+		}
+	  27.6785714286% {
+				content: "88'     88'     88'YbdP`88 88                                                                               ,888";
+		}
+	  28.5714285714% {
+				content: "88'     88'     88'YbdP`88 88  `                                                                            ,888";
+		}
+	  29.4642857143% {
+				content: "88'     88'     88'YbdP`88 88  `8                                                                           ,888";
+		}
+	  30.3571428571% {
+				content: "88'     88'     88'YbdP`88 88  `8D                                                                          ,888";
+		}
+	  31.25% {
+				content: "88'     88'     88'YbdP`88 88  `8D                                                                          ,888";
+		}
+	  32.1428571429% {
+				content: "88'     88'     88'YbdP`88 88  `8D .                                                                        ,888";
+		}
+	  33.0357142857% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8                                                                       ,888";
+		}
+	  33.9285714286% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P                                                                      ,888";
+		}
+	  34.8214285714% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P                                                                      ,888";
+		}
+	  35.7142857143% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P                                                                      ,888";
+		}
+	  36.6071428571% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y                                                                   ,888";
+		}
+	  37.5% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8                                                                  ,888";
+		}
+	  38.3928571429% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8.                                                                 ,888";
+		}
+	  39.2857142857% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8.                                                                 ,888";
+		}
+	  40.1785714286% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `                                                               ,888";
+		}
+	  41.0714285714% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8                                                              ,888";
+		}
+	  41.9642857143% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b                                                             ,888";
+		}
+	  42.8571428571% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b                                                             ,888";
+		}
+	  43.75% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b                                                             ,888";
+		}
+	  44.6428571429% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d                                                          ,888";
+		}
+	  45.5357142857% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8                                                         ,888";
+		}
+	  46.4285714286% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'                                                        ,888";
+		}
+	  47.3214285714% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'                                                        ,888";
+		}
+	  48.2142857143% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'                                                        ,888";
+		}
+	  49.1071428571% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'                                                        ,888";
+		}
+	  50% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'                                                        ,888";
+		}
+	  50.8928571428% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'                                                        ,888";
+		}
+	  51.7857142857% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'                                                        ,888";
+		}
+	  52.6785714286% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      8                                                 ,888";
+		}
+	  53.5714285714% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88                                                ,888";
+		}
+	  54.4642857143% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88                                                ,888";
+		}
+	  55.3571428571% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88                                                ,888";
+		}
+	  56.25% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88                                                ,888";
+		}
+	  57.1428571428% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I                                            ,888";
+		}
+	  58.0357142857% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8                                           ,888";
+		}
+	  58.9285714286% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I                                          ,888";
+		}
+	  59.8214285714% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88                                     ,888";
+		}
+	  60.7142857143% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88                                     ,888";
+		}
+	  61.6071428571% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88                                     ,888";
+		}
+	  62.5% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `                                 ,888";
+		}
+	  63.3928571428% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `8                                ,888";
+		}
+	  64.2857142857% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88                               ,888";
+		}
+	  65.1785714286% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'                              ,888";
+		}
+	  66.0714285714% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'                              ,888";
+		}
+	  66.9642857143% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'                              ,888";
+		}
+	  67.8571428571% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'                              ,888";
+		}
+	  68.75% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   8                          ,888";
+		}
+	  69.6428571428% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88                         ,888";
+		}
+	  70.5357142857% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88                         ,888";
+		}
+	  71.4285714286% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,                       ,888";
+		}
+	  72.3214285714% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8                      ,888";
+		}
+	  73.2142857143% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P                     ,888";
+		}
+	  74.1071428571% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'                    ,888";
+		}
+	  75% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'                    ,888";
+		}
+	  75.8928571428% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'                    ,888";
+		}
+	  76.7857142857% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'                    ,888";
+		}
+	  77.6785714286% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `                ,888";
+		}
+	  78.5714285714% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `8               ,888";
+		}
+	  79.4642857143% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `88              ,888";
+		}
+	  80.3571428571% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `88'             ,888";
+		}
+	  81.25% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `88'             ,888";
+		}
+	  82.1428571428% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `88'             ,888";
+		}
+	  83.0357142857% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `88'             ,888";
+		}
+	  83.9285714286% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `88'             ,888";
+		}
+	  84.8214285714% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `88'             ,888";
+		}
+	  85.7142857143% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `88'             ,888";
+		}
+	  86.6071428571% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `88'             ,888";
+		}
+	  87.5% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `88'             ,888";
+		}
+	  88.3928571428% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `88'             ,888";
+		}
+	  89.2857142857% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `88'             ,888";
+		}
+	  90.1785714286% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `88'             ,888";
+		}
+	  91.0714285714% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `88'             ,888";
+		}
+	  91.9642857143% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `88'             ,888";
+		}
+	  92.8571428571% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `88'             ,888";
+		}
+	  93.75% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `88'             ,888";
+		}
+	  94.6428571428% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `88'             ,888";
+		}
+	  95.5357142857% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `88'             ,888";
+		}
+	  96.4285714286% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `88'             ,888";
+		}
+	  97.3214285714% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `88'             ,888";
+		}
+	  98.2142857143% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `88'             ,888";
+		}
+	  99.1071428571% {
+				content: "88'     88'     88'YbdP`88 88  `8D .8P  Y8. `8b  d8'      88   I8I   88   `88'   88 ,8P'   `88'             ,888";
+		}
+}
+
+textanithree::before {
+    content: "  e Y8b Y8b   888   888 C88b  888 d88   '8   d88888 888 88b d88 88b d88   88b 888 '   Y8b Y8P    888 888 88b 888888 d88   88b ";
+    animation: animatercs 1.5s;
+		color: oldlace;
+}
+/*100/112*/
+@keyframes animatercs {
+    0% {
+        content: "  e Y8b Y8b   888   888 C88b  888 d88   '8   d88888 888 88b d88 88b d88   88b 888 '   Y8b Y8P    888 888 88b 888888 d88   88b ";
+				color: oldlace;
+    }
+    0.892857142857% {
+        content: "8                                                                                                          88' 8";
+    }
+    1.78571428571% {
+        content: "88                                                                                                         88' 8";
+    }
+    2.67857142857% {
+        content: "88o                                                                                                        88' 8";
+		}
+    3.57142857143% {
+        content: "88oo                                                                                                       88' 8";
+		}
+	  4.46428571429% {
+        content: "88ooo                                                                                                      88' 8";
+		}
+	  5.35714285714% {
+        content: "88ooo                                                                                                      88' 8";
+		}
+	  6.25% {
+        content: "88ooo                                                                                                      88' 8";
+		}
+	  7.14285714286% {
+        content: "88ooo                                                                                                      88' 8";
+		}
+	  8.03571428571% {
+        content: "88ooo   8                                                                                                  88' 8";
+		}
+	  8.92857142857% {
+        content: "88ooo   88                                                                                                 88' 8";
+		}
+	  9.82142857143% {
+        content: "88ooo   88o                                                                                                88' 8";
+		}
+	  10.7142857143% {
+        content: "88ooo   88oo                                                                                               88' 8";
+		}
+		11.6071428571% {
+        content: "88ooo   88ooo                                                                                              88' 8";
+		}
+	  12.5% {
+        content: "88ooo   88oooo                                                                                             88' 8";
+		}
+	  13.3928571429% {
+        content: "88ooo   88ooooo                                                                                            88' 8";
+		}
+	  14.2857142857% {
+        content: "88ooo   88ooooo                                                                                            88' 8";
+		}
+	  15.1785714286% {
+				content: "88ooo   88ooooo 8                                                                                          88' 8";
+		}
+	  16.0714285714% {
+				content: "88ooo   88ooooo 88                                                                                         88' 8";
+		}
+	  16.9642857143% {
+				content: "88ooo   88ooooo 88                                                                                         88' 8";
+		}
+	  17.8571428571% {
+				content: "88ooo   88ooooo 88                                                                                         88' 8";
+		}
+	  18.75% {
+				content: "88ooo   88ooooo 88  8                                                                                      88' 8";
+		}
+	  19.6428571429% {
+				content: "88ooo   88ooooo 88  88                                                                                     88' 8";
+		}
+	  20.5357142857% {
+				content: "88ooo   88ooooo 88  88                                                                                     88' 8";
+		}
+	  21.4285714286% {
+				content: "88ooo   88ooooo 88  88                                                                                     88' 8";
+		}
+	  22.3214285714% {
+				content: "88ooo   88ooooo 88  88  8                                                                                  88' 8";
+		}
+	  23.2142857143% {
+				content: "88ooo   88ooooo 88  88  88                                                                                 88' 8";
+		}
+	  24.1071428571% {
+				content: "88ooo   88ooooo 88  88  88                                                                                 88' 8";
+		}
+	  25% {
+				content: "88ooo   88ooooo 88  88  88 8                                                                               88' 8";
+		}
+	  25.8928571429% {
+				content: "88ooo   88ooooo 88  88  88 88                                                                              88' 8";
+		}
+	  26.7857142857% {
+				content: "88ooo   88ooooo 88  88  88 88o                                                                             88' 8";
+		}
+	  27.6785714286% {
+				content: "88ooo   88ooooo 88  88  88 88oo                                                                            88' 8";
+		}
+	  28.5714285714% {
+				content: "88ooo   88ooooo 88  88  88 88ooo                                                                           88' 8";
+		}
+	  29.4642857143% {
+				content: "88ooo   88ooooo 88  88  88 88oooY                                                                          88' 8";
+		}
+	  30.3571428571% {
+				content: "88ooo   88ooooo 88  88  88 88oooY'                                                                         88' 8";
+		}
+	  31.25% {
+				content: "88ooo   88ooooo 88  88  88 88oooY'                                                                         88' 8";
+		}
+	  32.1428571429% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 8                                                                       88' 8";
+		}
+	  33.0357142857% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88                                                                      88' 8";
+		}
+	  33.9285714286% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88                                                                      88' 8";
+		}
+	  34.8214285714% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88                                                                      88' 8";
+		}
+	  35.7142857143% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88                                                                      88' 8";
+		}
+	  36.6071428571% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88                                                                      88' 8";
+		}
+	  37.5% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    8                                                                 88' 8";
+		}
+	  38.3928571429% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88                                                                88' 8";
+		}
+	  39.2857142857% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88                                                                88' 8";
+		}
+	  40.1785714286% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88                                                                88' 8";
+		}
+	  41.0714285714% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `                                                             88' 8";
+		}
+	  41.9642857143% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8                                                            88' 8";
+		}
+	  42.8571428571% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8b                                                           88' 8";
+		}
+	  43.75% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd                                                          88' 8";
+		}
+	  44.6428571429% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8                                                         88' 8";
+		}
+	  45.5357142857% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'                                                        88' 8";
+		}
+	  46.4285714286% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'                                                        88' 8";
+		}
+	  47.3214285714% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'                                                        88' 8";
+		}
+	  48.2142857143% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'                                                        88' 8";
+		}
+	  49.1071428571% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'                                                        88' 8";
+		}
+	  50% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'                                                        88' 8";
+		}
+	  50.8928571428% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'                                                        88' 8";
+		}
+	  51.7857142857% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'                                                        88' 8";
+		}
+	  52.6785714286% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       8                                                88' 8";
+		}
+	  53.5714285714% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88                                               88' 8";
+		}
+	  54.4642857143% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88                                               88' 8";
+		}
+	  55.3571428571% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88                                               88' 8";
+		}
+	  56.25% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88                                               88' 8";
+		}
+	  57.1428571428% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I                                           88' 8";
+		}
+	  58.0357142857% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8                                          88' 8";
+		}
+	  58.9285714286% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I                                         88' 8";
+		}
+	  59.8214285714% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I                                         88' 8";
+		}
+	  60.7142857143% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I                                         88' 8";
+		}
+	  61.6071428571% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I                                         88' 8";
+		}
+	  62.5% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   8                                     88' 8";
+		}
+	  63.3928571428% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88                                    88' 8";
+		}
+	  64.2857142857% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88                                    88' 8";
+		}
+	  65.1785714286% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88                                    88' 8";
+		}
+	  66.0714285714% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88                                    88' 8";
+		}
+	  66.9642857143% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88                                    88' 8";
+		}
+	  67.8571428571% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    8                               88' 8";
+		}
+	  68.75% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88                              88' 8";
+		}
+	  69.6428571428% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88                              88' 8";
+		}
+	  70.5357142857% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88                              88' 8";
+		}
+	  71.4285714286% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88                              88' 8";
+		}
+	  72.3214285714% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88                              88' 8";
+		}
+	  73.2142857143% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    8                         88' 8";
+		}
+	  74.1071428571% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88                        88' 8";
+		}
+	  75% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,                       88' 8";
+		}
+	  75.8928571428% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8                      88' 8";
+		}
+	  76.7857142857% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P                     88' 8";
+		}
+	  77.6785714286% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P                     88' 8";
+		}
+	  78.5714285714% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P                     88' 8";
+		}
+	  79.4642857143% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P                     88' 8";
+		}
+	  80.3571428571% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P                     88' 8";
+		}
+	  81.25% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P                     88' 8";
+		}
+	  82.1428571428% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P                     88' 8";
+		}
+	  83.0357142857% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P      8              88' 8";
+		}
+	  83.9285714286% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P      88             88' 8";
+		}
+	  84.8214285714% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P      88             88' 8";
+		}
+	  85.7142857143% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P      88             88' 8";
+		}
+	  86.6071428571% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P      88             88' 8";
+		}
+	  87.5% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P      88             88' 8";
+		}
+	  88.3928571428% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P      88             88' 8";
+		}
+	  89.2857142857% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P      88             88' 8";
+		}
+	  90.1785714286% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P      88             88' 8";
+		}
+	  91.0714285714% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P      88             88' 8";
+		}
+	  91.9642857143% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P      88             88' 8";
+		}
+	  92.8571428571% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P      88             88' 8";
+		}
+	  93.75% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P      88             88' 8";
+		}
+	  94.6428571428% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P      88             88' 8";
+		}
+	  95.5357142857% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P      88             88' 8";
+		}
+	  96.4285714286% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P      88             88' 8";
+		}
+	  97.3214285714% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P      88             88' 8";
+		}
+	  98.2142857143% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P      88             88' 8";
+		}
+	  99.1071428571% {
+				content: "88ooo   88ooooo 88  88  88 88oooY' 88    88  `8bd8'       88   I8I   88    88    88,8P      88             88' 8";
+		}
+}
+
+textanifour::before {
+    content: " d8b Y8b Y8b  Y88   88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";
+    animation: animatercss 1.5s;
+		color: oldlace;
+}
+/*100/112*/
+@keyframes animatercss {
+    0% {
+        content: " d8b Y8b Y8b  Y88   88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";
+				color: oldlace;
+    }
+    0.892857142857% {
+        content: "8                                                                                                    ,888888    ";
+    }
+    1.78571428571% {
+        content: "88                                                                                                   ,888888    ";
+    }
+    2.67857142857% {
+        content: "88~                                                                                                  ,888888    ";
+		}
+    3.57142857143% {
+        content: "88~~                                                                                                 ,888888    ";
+		}
+	  4.46428571429% {
+        content: "88~~~                                                                                                ,888888    ";
+		}
+	  5.35714285714% {
+        content: "88~~~                                                                                                ,888888    ";
+		}
+	  6.25% {
+        content: "88~~~                                                                                                ,888888    ";
+		}
+	  7.14285714286% {
+        content: "88~~~                                                                                                ,888888    ";
+		}
+	  8.03571428571% {
+        content: "88~~~   8                                                                                            ,888888    ";
+		}
+	  8.92857142857% {
+        content: "88~~~   88                                                                                           ,888888    ";
+		}
+	  9.82142857143% {
+        content: "88~~~   88~                                                                                          ,888888    ";
+		}
+	  10.7142857143% {
+        content: "88~~~   88~~                                                                                         ,888888    ";
+		}
+		11.6071428571% {
+        content: "88~~~   88~~~                                                                                        ,888888    ";
+		}
+	  12.5% {
+        content: "88~~~   88~~~~                                                                                       ,888888    ";
+		}
+	  13.3928571429% {
+        content: "88~~~   88~~~~~                                                                                      ,888888    ";
+		}
+	  14.2857142857% {
+        content: "88~~~   88~~~~~                                                                                      ,888888    ";
+		}
+	  15.1785714286% {
+				content: "88~~~   88~~~~~ 8                                                                                    ,888888    ";
+		}
+	  16.0714285714% {
+				content: "88~~~   88~~~~~ 88                                                                                   ,888888    ";
+		}
+	  16.9642857143% {
+				content: "88~~~   88~~~~~ 88                                                                                   ,888888    ";
+		}
+	  17.8571428571% {
+				content: "88~~~   88~~~~~ 88                                                                                   ,888888    ";
+		}
+	  18.75% {
+				content: "88~~~   88~~~~~ 88  8                                                                                ,888888    ";
+		}
+	  19.6428571429% {
+				content: "88~~~   88~~~~~ 88  88                                                                               ,888888    ";
+		}
+	  20.5357142857% {
+				content: "88~~~   88~~~~~ 88  88                                                                               ,888888    ";
+		}
+	  21.4285714286% {
+				content: "88~~~   88~~~~~ 88  88                                                                               ,888888    ";
+		}
+	  22.3214285714% {
+				content: "88~~~   88~~~~~ 88  88  8                                                                            ,888888    ";
+		}
+	  23.2142857143% {
+				content: "88~~~   88~~~~~ 88  88  88                                                                           ,888888    ";
+		}
+	  24.1071428571% {
+				content: "88~~~   88~~~~~ 88  88  88 8                                                                         ,888888    ";
+		}
+	  25% {
+				content: "88~~~   88~~~~~ 88  88  88 88                                                                        ,888888    ";
+		}
+	  25.8928571429% {
+				content: "88~~~   88~~~~~ 88  88  88 88~                                                                       ,888888    ";
+		}
+	  26.7857142857% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~                                                                      ,888888    ";
+		}
+	  27.6785714286% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~                                                                     ,888888    ";
+		}
+	  28.5714285714% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b                                                                    ,888888    ";
+		}
+	  29.4642857143% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b.                                                                   ,888888    ";
+		}
+	  30.3571428571% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b.                                                                   ,888888    ";
+		}
+	  31.25% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 8                                                                 ,888888    ";
+		}
+	  32.1428571429% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88                                                                ,888888    ";
+		}
+	  33.0357142857% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88                                                                ,888888    ";
+		}
+	  33.9285714286% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88                                                                ,888888    ";
+		}
+	  34.8214285714% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88                                                                ,888888    ";
+		}
+	  35.7142857143% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88                                                                ,888888    ";
+		}
+	  36.6071428571% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    8                                                           ,888888    ";
+		}
+	  37.5% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88                                                          ,888888    ";
+		}
+	  38.3928571429% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88                                                          ,888888    ";
+		}
+	  39.2857142857% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88                                                          ,888888    ";
+		}
+	  40.1785714286% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88                                                          ,888888    ";
+		}
+	  41.0714285714% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88                                                          ,888888    ";
+		}
+	  41.9642857143% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    8                                                     ,888888    ";
+		}
+	  42.8571428571% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88                                                    ,888888    ";
+		}
+	  43.75% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88                                                    ,888888    ";
+		}
+	  44.6428571429% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88                                                    ,888888    ";
+		}
+	  45.5357142857% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88                                                    ,888888    ";
+		}
+	  46.4285714286% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88                                                    ,888888    ";
+		}
+	  47.3214285714% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88                                                    ,888888    ";
+		}
+	  48.2142857143% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88                                                    ,888888    ";
+		}
+	  49.1071428571% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88                                                    ,888888    ";
+		}
+	  50% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88                                                    ,888888    ";
+		}
+	  50.8928571428% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88                                                    ,888888    ";
+		}
+	  51.7857142857% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y                                          ,888888    ";
+		}
+	  52.6785714286% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8                                         ,888888    ";
+		}
+	  53.5714285714% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8                                         ,888888    ";
+		}
+	  54.4642857143% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8                                         ,888888    ";
+		}
+	  55.3571428571% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8                                         ,888888    ";
+		}
+	  56.25% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I                                     ,888888    ";
+		}
+	  57.1428571428% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8                                    ,888888    ";
+		}
+	  58.0357142857% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I                                   ,888888    ";
+		}
+	  58.9285714286% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I                                   ,888888    ";
+		}
+	  59.8214285714% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I                                   ,888888    ";
+		}
+	  60.7142857143% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I                                   ,888888    ";
+		}
+	  61.6071428571% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   8                               ,888888    ";
+		}
+	  62.5% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88                              ,888888    ";
+		}
+	  63.3928571428% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88                              ,888888    ";
+		}
+	  64.2857142857% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88                              ,888888    ";
+		}
+	  65.1785714286% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88                              ,888888    ";
+		}
+	  66.0714285714% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88                              ,888888    ";
+		}
+	  66.9642857143% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    8                         ,888888    ";
+		}
+	  67.8571428571% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88                        ,888888    ";
+		}
+	  68.75% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88                        ,888888    ";
+		}
+	  69.6428571428% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88                        ,888888    ";
+		}
+	  70.5357142857% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88                        ,888888    ";
+		}
+	  71.4285714286% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88                        ,888888    ";
+		}
+	  72.3214285714% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    8                   ,888888    ";
+		}
+	  73.2142857143% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88                  ,888888    ";
+		}
+	  74.1071428571% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`                 ,888888    ";
+		}
+	  75% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8                ,888888    ";
+		}
+	  75.8928571428% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b               ,888888    ";
+		}
+	  76.7857142857% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b               ,888888    ";
+		}
+	  77.6785714286% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b               ,888888    ";
+		}
+	  78.5714285714% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b               ,888888    ";
+		}
+	  79.4642857143% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b               ,888888    ";
+		}
+	  80.3571428571% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b               ,888888    ";
+		}
+	  81.25% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b               ,888888    ";
+		}
+	  82.1428571428% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b      8        ,888888    ";
+		}
+	  83.0357142857% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b      88       ,888888    ";
+		}
+	  83.9285714286% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b      88       ,888888    ";
+		}
+	  84.8214285714% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b      88       ,888888    ";
+		}
+	  85.7142857143% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b      88       ,888888    ";
+		}
+	  86.6071428571% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b      88       ,888888    ";
+		}
+	  87.5% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b      88       ,888888    ";
+		}
+	  88.3928571428% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b      88       ,888888    ";
+		}
+	  89.2857142857% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b      88       ,888888    ";
+		}
+	  90.1785714286% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b      88       ,888888    ";
+		}
+	  91.0714285714% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b      88       ,888888    ";
+		}
+	  91.9642857143% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b      88       ,888888    ";
+		}
+	  92.8571428571% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b      88       ,888888    ";
+		}
+	  93.75% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b      88       ,888888    ";
+		}
+	  94.6428571428% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b      88       ,888888    ";
+		}
+	  95.5357142857% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b      88       ,888888    ";
+		}
+	  96.4285714286% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b      88       ,888888    ";
+		}
+	  97.3214285714% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b      88       ,888888    ";
+		}
+	  98.2142857143% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b      88       ,888888    ";
+		}
+	  99.1071428571% {
+				content: "88~~~   88~~~~~ 88  88  88 88~~~b. 88    88    88         Y8   I8I   88    88    88`8b      88       ,888888    ";
+		}
+}
+
+textanifive::before {
+    content: "d888b Y8b Y8b  '88 88'  d,dP  888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888      888 888 888  888    '88 88'  ";
+    animation: animat 1.5s;
+		color: oldlace;
+}
+/*100/112*/
+@keyframes animat {
+    0% {
+        content: "d                                                                                                                             ";
+				color: oldlace;
+    }
+    0.892857142857% {
+        content: "d8                                                                                                                            ";
+    }
+    1.78571428571% {
+        content: "d88                                                                                                                           ";
+    }
+    2.67857142857% {
+        content: "d888                                                                                                                          ";
+		}
+    3.57142857143% {
+        content: "d888b                                                                                                                         ";
+		}
+	  4.46428571429% {
+        content: "d888b                                                                                                                         ";
+		}
+	  5.35714285714% {
+        content: "d888b Y                                                                                                                       ";
+		}
+	  6.25% {
+        content: "88                                                                                                 ,88'   '88,  ";
+		}
+	  7.14285714286% {
+        content: "88                                                                                                 ,88'   '88,  ";
+		}
+	  8.03571428571% {
+        content: "88      8                                                                                          ,88'   '88,  ";
+		}
+	  8.92857142857% {
+        content: "88      88.                                                                                        ,88'   '88,  ";
+		}
+	  9.82142857143% {
+        content: "88      88.                                                                                        ,88'   '88,  ";
+		}
+	  10.7142857143% {
+        content: "88      88.                                                                                        ,88'   '88,  ";
+		}
+		11.6071428571% {
+        content: "88      88.                                                                                        ,88'   '88,  ";
+		}
+	  12.5% {
+        content: "88      88.                                                                                        ,88'   '88,  ";
+		}
+	  13.3928571429% {
+        content: "88      88.                                                                                        ,88'   '88,  ";
+		}
+	  14.2857142857% {
+        content: "88      88.     8                                                                                  ,88'   '88,  ";
+		}
+	  15.1785714286% {
+				content: "88      88.     88                                                                                 ,88'   '88,  ";
+		}
+	  16.0714285714% {
+				content: "88      88.     88                                                                                 ,88'   '88,  ";
+		}
+	  16.9642857143% {
+				content: "88      88.     88                                                                                 ,88'   '88,  ";
+		}
+	  17.8571428571% {
+				content: "88      88.     88  8                                                                              ,88'   '88,  ";
+		}
+	  18.75% {
+				content: "88      88.     88  88                                                                             ,88'   '88,  ";
+		}
+	  19.6428571429% {
+				content: "88      88.     88  88                                                                             ,88'   '88,  ";
+		}
+	  20.5357142857% {
+				content: "88      88.     88  88                                                                             ,88'   '88,  ";
+		}
+	  21.4285714286% {
+				content: "88      88.     88  88  8                                                                          ,88'   '88,  ";
+		}
+	  22.3214285714% {
+				content: "88      88.     88  88  88                                                                         ,88'   '88,  ";
+		}
+	  23.2142857143% {
+				content: "88      88.     88  88  88 8                                                                       ,88'   '88,  ";
+		}
+	  24.1071428571% {
+				content: "88      88.     88  88  88 88                                                                      ,88'   '88,  ";
+		}
+	  25% {
+				content: "88      88.     88  88  88 88                                                                      ,88'   '88,  ";
+		}
+	  25.8928571429% {
+				content: "88      88.     88  88  88 88                                                                      ,88'   '88,  ";
+		}
+	  26.7857142857% {
+				content: "88      88.     88  88  88 88                                                                      ,88'   '88,  ";
+		}
+	  27.6785714286% {
+				content: "88      88.     88  88  88 88   8                                                                  ,88'   '88,  ";
+		}
+	  28.5714285714% {
+				content: "88      88.     88  88  88 88   8D                                                                 ,88'   '88,  ";
+		}
+	  29.4642857143% {
+				content: "88      88.     88  88  88 88   8D                                                                 ,88'   '88,  ";
+		}
+	  30.3571428571% {
+				content: "88      88.     88  88  88 88   8D `                                                               ,88'   '88,  ";
+		}
+	  31.25% {
+				content: "88      88.     88  88  88 88   8D `8                                                              ,88'   '88,  ";
+		}
+	  32.1428571429% {
+				content: "88      88.     88  88  88 88   8D `8b                                                             ,88'   '88,  ";
+		}
+	  33.0357142857% {
+				content: "88      88.     88  88  88 88   8D `8b                                                             ,88'   '88,  ";
+		}
+	  33.9285714286% {
+				content: "88      88.     88  88  88 88   8D `8b                                                             ,88'   '88,  ";
+		}
+	  34.8214285714% {
+				content: "88      88.     88  88  88 88   8D `8b  d                                                          ,88'   '88,  ";
+		}
+	  35.7142857143% {
+				content: "88      88.     88  88  88 88   8D `8b  d8                                                         ,88'   '88,  ";
+		}
+	  36.6071428571% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'                                                        ,88'   '88,  ";
+		}
+	  37.5% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'                                                        ,88'   '88,  ";
+		}
+	  38.3928571429% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'                                                        ,88'   '88,  ";
+		}
+	  39.2857142857% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'                                                        ,88'   '88,  ";
+		}
+	  40.1785714286% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'                                                        ,88'   '88,  ";
+		}
+	  41.0714285714% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    8                                                   ,88'   '88,  ";
+		}
+	  41.9642857143% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88                                                  ,88'   '88,  ";
+		}
+	  42.8571428571% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88                                                  ,88'   '88,  ";
+		}
+	  43.75% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88                                                  ,88'   '88,  ";
+		}
+	  44.6428571429% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88                                                  ,88'   '88,  ";
+		}
+	  45.5357142857% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88                                                  ,88'   '88,  ";
+		}
+	  46.4285714286% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88                                                  ,88'   '88,  ";
+		}
+	  47.3214285714% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88                                                  ,88'   '88,  ";
+		}
+	  48.2142857143% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88                                                  ,88'   '88,  ";
+		}
+	  49.1071428571% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88                                                  ,88'   '88,  ";
+		}
+	  50% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88                                                  ,88'   '88,  ";
+		}
+	  50.8928571428% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `                                        ,88'   '88,  ";
+		}
+	  51.7857142857% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8                                       ,88'   '88,  ";
+		}
+	  52.6785714286% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b                                      ,88'   '88,  ";
+		}
+	  53.5714285714% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b                                      ,88'   '88,  ";
+		}
+	  54.4642857143% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b                                      ,88'   '88,  ";
+		}
+	  55.3571428571% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b                                      ,88'   '88,  ";
+		}
+	  56.25% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d                                    ,88'   '88,  ";
+		}
+	  57.1428571428% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8                                   ,88'   '88,  ";
+		}
+	  58.0357142857% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'                                  ,88'   '88,  ";
+		}
+	  58.9285714286% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8                                 ,88'   '88,  ";
+		}
+	  59.8214285714% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b                                ,88'   '88,  ";
+		}
+	  60.7142857143% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b                                ,88'   '88,  ";
+		}
+	  61.6071428571% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d                              ,88'   '88,  ";
+		}
+	  62.5% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8                             ,88'   '88,  ";
+		}
+	  63.3928571428% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'                            ,88'   '88,  ";
+		}
+	  64.2857142857% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'                            ,88'   '88,  ";
+		}
+	  65.1785714286% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'                            ,88'   '88,  ";
+		}
+	  66.0714285714% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'                            ,88'   '88,  ";
+		}
+	  66.9642857143% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .                        ,88'   '88,  ";
+		}
+	  67.8571428571% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .8                       ,88'   '88,  ";
+		}
+	  68.75% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88                      ,88'   '88,  ";
+		}
+	  69.6428571428% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.                     ,88'   '88,  ";
+		}
+	  70.5357142857% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.                     ,88'   '88,  ";
+		}
+	  71.4285714286% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.                     ,88'   '88,  ";
+		}
+	  72.3214285714% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.                     ,88'   '88,  ";
+		}
+	  73.2142857143% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   8                 ,88'   '88,  ";
+		}
+	  74.1071428571% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88                ,88'   '88,  ";
+		}
+	  75% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88                ,88'   '88,  ";
+		}
+	  75.8928571428% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `              ,88'   '88,  ";
+		}
+	  76.7857142857% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `8             ,88'   '88,  ";
+		}
+	  77.6785714286% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88            ,88'   '88,  ";
+		}
+	  78.5714285714% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88.           ,88'   '88,  ";
+		}
+	  79.4642857143% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88.           ,88'   '88,  ";
+		}
+	  80.3571428571% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88.           ,88'   '88,  ";
+		}
+	  81.25% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88.           ,88'   '88,  ";
+		}
+	  82.1428571428% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88.   .       ,88'   '88,  ";
+		}
+	  83.0357142857% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88.   .8      ,88'   '88,  ";
+		}
+	  83.9285714286% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88.   .88     ,88'   '88,  ";
+		}
+	  84.8214285714% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88.   .88.    ,88'   '88,  ";
+		}
+	  85.7142857143% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88.   .88.    ,88'   '88,  ";
+		}
+	  86.6071428571% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88.   .88.    ,88'   '88,  ";
+		}
+	  87.5% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88.   .88.    ,88'   '88,  ";
+		}
+	  88.3928571428% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88.   .88.    ,88'   '88,  ";
+		}
+	  89.2857142857% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88.   .88.    ,88'   '88,  ";
+		}
+	  90.1785714286% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88.   .88.    ,88'   '88,  ";
+		}
+	  91.0714285714% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88.   .88.    ,88'   '88,  ";
+		}
+	  91.9642857143% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88.   .88.    ,88'   '88,  ";
+		}
+	  92.8571428571% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88.   .88.    ,88'   '88,  ";
+		}
+	  93.75% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88.   .88.    ,88'   '88,  ";
+		}
+	  94.6428571428% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88.   .88.    ,88'   '88,  ";
+		}
+	  95.5357142857% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88.   .88.    ,88'   '88,  ";
+		}
+	  96.4285714286% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88.   .88.    ,88'   '88,  ";
+		}
+	  97.3214285714% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88.   .88.    ,88'   '88,  ";
+		}
+	  98.2142857143% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88.   .88.    ,88'   '88,  ";
+		}
+	  99.1071428571% {
+				content: "88      88.     88  88  88 88   8D `8b  d8'    88         `8b d8'8b d8'   .88.   88 `88.   .88.    ,88'   '88,  ";
+		}
+}
+
+textanisix::before {
+    content: "                                                                                        888                                   ";
+    animation: animatrz 1.5s;
+		color: oldlace;
+}
+/*100/112*/
+@keyframes animatrz {
+    0% {
+        content: "                                                                                        888                                   ";
+				color: oldlace;
+    }
+    0.892857142857% {
+        content: "Y                                                                                                  88'     '88  ";
+    }
+    1.78571428571% {
+        content: "YP                                                                                                 88'     '88  ";
+    }
+    2.67857142857% {
+        content: "YP                                                                                                 88'     '88  ";
+		}
+    3.57142857143% {
+        content: "YP                                                                                                 88'     '88  ";
+		}
+	  4.46428571429% {
+        content: "YP                                                                                                 88'     '88  ";
+		}
+	  5.35714285714% {
+        content: "YP                                                                                                 88'     '88  ";
+		}
+	  6.25% {
+        content: "YP                                                                                                 88'     '88  ";
+		}
+	  7.14285714286% {
+        content: "YP                                                                                                 88'     '88  ";
+		}
+	  8.03571428571% {
+        content: "YP      Y                                                                                          88'     '88  ";
+		}
+	  8.92857142857% {
+        content: "YP      Y8                                                                                         88'     '88  ";
+		}
+	  9.82142857143% {
+        content: "YP      Y88                                                                                        88'     '88  ";
+		}
+	  10.7142857143% {
+        content: "YP      Y888                                                                                       88'     '88  ";
+		}
+		11.6071428571% {
+        content: "YP      Y8888                                                                                      88'     '88  ";
+		}
+	  12.5% {
+        content: "YP      Y88888                                                                                     88'     '88  ";
+		}
+	  13.3928571429% {
+        content: "YP      Y88888P                                                                                    88'     '88  ";
+		}
+	  14.2857142857% {
+        content: "YP      Y88888P                                                                                    88'     '88  ";
+		}
+	  15.1785714286% {
+				content: "YP      Y88888P Y                                                                                  88'     '88  ";
+		}
+	  16.0714285714% {
+				content: "YP      Y88888P YP                                                                                 88'     '88  ";
+		}
+	  16.9642857143% {
+				content: "YP      Y88888P YP                                                                                 88'     '88  ";
+		}
+	  17.8571428571% {
+				content: "YP      Y88888P YP                                                                                 88'     '88  ";
+		}
+	  18.75% {
+				content: "YP      Y88888P YP  Y                                                                              88'     '88  ";
+		}
+	  19.6428571429% {
+				content: "YP      Y88888P YP  YP                                                                             88'     '88  ";
+		}
+	  20.5357142857% {
+				content: "YP      Y88888P YP  YP                                                                             88'     '88  ";
+		}
+	  21.4285714286% {
+				content: "YP      Y88888P YP  YP                                                                             88'     '88  ";
+		}
+	  22.3214285714% {
+				content: "YP      Y88888P YP  YP  Y                                                                          88'     '88  ";
+		}
+	  23.2142857143% {
+				content: "YP      Y88888P YP  YP  YP                                                                         88'     '88  ";
+		}
+	  24.1071428571% {
+				content: "YP      Y88888P YP  YP  YP                                                                         88'     '88  ";
+		}
+	  25% {
+				content: "YP      Y88888P YP  YP  YP Y                                                                       88'     '88  ";
+		}
+	  25.8928571429% {
+				content: "YP      Y88888P YP  YP  YP Y8                                                                      88'     '88  ";
+		}
+	  26.7857142857% {
+				content: "YP      Y88888P YP  YP  YP Y8u                                                                     88'     '88  ";
+		}
+	  27.6785714286% {
+				content: "YP      Y88888P YP  YP  YP Y8uw                                                                    88'     '88  ";
+		}
+	  28.5714285714% {
+				content: "YP      Y88888P YP  YP  YP Y8uwu                                                                   88'     '88  ";
+		}
+	  29.4642857143% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP                                                                  88'     '88  ";
+		}
+	  30.3571428571% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'                                                                 88'     '88  ";
+		}
+	  31.25% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'                                                                 88'     '88  ";
+		}
+	  32.1428571429% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'                                                                 88'     '88  ";
+		}
+	  33.0357142857% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `                                                              88'     '88  ";
+		}
+	  33.9285714286% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `Y                                                             88'     '88  ";
+		}
+	  34.8214285714% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `Yb                                                            88'     '88  ";
+		}
+	  35.7142857143% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `Ybd                                                           88'     '88  ";
+		}
+	  36.6071428571% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP                                                          88'     '88  ";
+		}
+	  37.5% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'                                                         88'     '88  ";
+		}
+	  38.3928571429% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'                                                         88'     '88  ";
+		}
+	  39.2857142857% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'                                                         88'     '88  ";
+		}
+	  40.1785714286% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'                                                         88'     '88  ";
+		}
+	  41.0714285714% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'                                                         88'     '88  ";
+		}
+	  41.9642857143% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'                                                         88'     '88  ";
+		}
+	  42.8571428571% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     Y                                                   88'     '88  ";
+		}
+	  43.75% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP                                                  88'     '88  ";
+		}
+	  44.6428571429% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP                                                  88'     '88  ";
+		}
+	  45.5357142857% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP                                                  88'     '88  ";
+		}
+	  46.4285714286% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP                                                  88'     '88  ";
+		}
+	  47.3214285714% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP                                                  88'     '88  ";
+		}
+	  48.2142857143% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP                                                  88'     '88  ";
+		}
+	  49.1071428571% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP                                                  88'     '88  ";
+		}
+	  50% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP                                                  88'     '88  ";
+		}
+	  50.8928571428% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP                                                  88'     '88  ";
+		}
+	  51.7857142857% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP                                                  88'     '88  ";
+		}
+	  52.6785714286% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP                                                  88'     '88  ";
+		}
+	  53.5714285714% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `                                       88'     '88  ";
+		}
+	  54.4642857143% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8                                      88'     '88  ";
+		}
+	  55.3571428571% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b                                     88'     '88  ";
+		}
+	  56.25% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8                                    88'     '88  ";
+		}
+	  57.1428571428% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8'                                   88'     '88  ";
+		}
+	  58.0357142857% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8'                                   88'     '88  ";
+		}
+	  58.9285714286% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `                                 88'     '88  ";
+		}
+	  59.8214285714% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8                                88'     '88  ";
+		}
+	  60.7142857143% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d                               88'     '88  ";
+		}
+	  61.6071428571% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8                              88'     '88  ";
+		}
+	  62.5% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'                             88'     '88  ";
+		}
+	  63.3928571428% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'                             88'     '88  ";
+		}
+	  64.2857142857% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'                             88'     '88  ";
+		}
+	  65.1785714286% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y                          88'     '88  ";
+		}
+	  66.0714285714% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y8                         88'     '88  ";
+		}
+	  66.9642857143% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y88                        88'     '88  ";
+		}
+	  67.8571428571% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888                       88'     '88  ";
+		}
+	  68.75% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y8888                      88'     '88  ";
+		}
+	  69.6428571428% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y88888                     88'     '88  ";
+		}
+	  70.5357142857% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888                    88'     '88  ";
+		}
+	  71.4285714286% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P                   88'     '88  ";
+		}
+	  72.3214285714% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P                   88'     '88  ";
+		}
+	  73.2142857143% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P Y                 88'     '88  ";
+		}
+	  74.1071428571% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP                88'     '88  ";
+		}
+	  75% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP                88'     '88  ";
+		}
+	  75.8928571428% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP                88'     '88  ";
+		}
+	  76.7857142857% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP                88'     '88  ";
+		}
+	  77.6785714286% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   Y            88'     '88  ";
+		}
+	  78.5714285714% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD           88'     '88  ";
+		}
+	  79.4642857143% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD           88'     '88  ";
+		}
+	  80.3571428571% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y         88'     '88  ";
+		}
+	  81.25% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y8        88'     '88  ";
+		}
+	  82.1428571428% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y88       88'     '88  ";
+		}
+	  83.0357142857% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888      88'     '88  ";
+		}
+	  83.9285714286% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y8888     88'     '88  ";
+		}
+	  84.8214285714% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y88888    88'     '88  ";
+		}
+	  85.7142857143% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888   88'     '88  ";
+		}
+	  86.6071428571% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+		}
+	  87.5% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+		}
+	  88.3928571428% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+		}
+	  89.2857142857% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+		}
+	  90.1785714286% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+		}
+	  91.0714285714% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+		}
+	  91.9642857143% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+		}
+	  92.8571428571% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+		}
+	  93.75% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+		}
+	  94.6428571428% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+		}
+	  95.5357142857% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+		}
+	  96.4285714286% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+		}
+	  97.3214285714% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+		}
+	  98.2142857143% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+		}
+	  99.1071428571% {
+				content: "YP      Y88888P YP  YP  YP Y8uwuP'  `YbdP'     YP          `8b8' `8d8'  Y888888P YP   YD Y888888P  88'     '88  ";
+		}
+}
+
+spiralone::before {
+    content: "             .:.                   ^^               .!               ?                ?                   :^   .";
+    animation: try infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes try { 
+    0%  {content: "             .:.                   ^^               .!               ?                ?                   :^   .";}
+    25% {content: "                 .::                  :^               .!               ?                ^~                    !";}
+    50% {content: "  ....      ...::....       ::                .!               7               .~          .......~7           .";}
+    75% {content: "              .::                   ^:       ........~7............  .7                ?                   .~   ";}
+}
+
+spiraltwo::before {
+    content: "               ..:.                 .^:              :!              7               :!                  ^:    .";
+    animation: trya infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes trya { 
+    0%  {content: "               ..:.                 .^:              :!              7               :!                  ^:    .";}
+    25% {content: "                    .:.                 ^:              ^^              7                ?                   .^^";}
+    50% {content: "    .:^~~^..                 .::               .!              :~              ^^                :7........    .";}
+    75% {content: "                 .:.          .......^!~.......       ~!      ........Y...........    :^                  :^    ";}
+}
+
+spiralthree::before {
+    content: "                  .::.                .^.             :~             ^:              7.                 ~.     .";
+    animation: tryas infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryas { 
+    0%  {content: "                  .::.                .^.             :~             ^:              7.                 ~.     .";}
+    25% {content: "                      .::.               .~.             !:             !.              ^^                  ^^ .";}
+    50% {content: ":....    ....                   ::               !.             7              !.               .7        .....~";}
+    75% {content: "                   .^~^:.......        .^.             ~:             !.         .....Y:...              ~:     ";}
+}
+
+spiralfour::before {
+    content: "                     .::.              .!7:...:::.:::..7?.::::.:::...^?..           .7                .!.      .";
+    animation: tryasd infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryasd { 
+    0%  {content: "                     .::.              .!7:...:::.:::..7?.::::.:::...^?..           .7                .!.      .";}
+    25% {content: "....                     .:.               ^^             7.            ~:              ?                  ~.  .";}
+    50% {content: "             .:..                 ::.             ~:            :~             7                7              .";}
+    75% {content: "             ...::... .::.               ^^             !:            ^:             :!   .........     ~.      ";}
+}
+
+spiralfive::before {
+    content: ":..                     .^^....:::::.... .!^            ~^           .J.....::::... 7^               .!        .";
+    animation: tryasdf infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryasdf { 
+    0%  {content: ":..                     .^^....:::::.... .!^            ~^           .J.....::::... 7^               .!        .";}
+    25% {content: "    .....                   ::.        .....~7^...::::.::.^Y:.......... ~~             ~:                .~    .";}
+    50% {content: "                .::.                ^^             ^^            ?             ?               7.              .";}
+    75% {content: "..... ...:....           .::.             .~.            7.           .~             7.           ....^?:       ";}
+}
+
+spiralsix::before {
+    content: "   ..:..            ...:::^^!^.            .~.           !.           7           ..Y::::..         :~         .";
+    animation: tryasdfg infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryasdfg { 
+    0%  {content: "   ..:..            ...:::^^!^.            .~.           !.           7           ..Y::::..         :~         .";}
+    25% {content: "        .::..                .^!~^:.......    ~^           :!         ..~7.::::....   .7                ^^     .";}
+    50% {content: "                   .::.               ^^            :~           ^^            7              !.               .";}
+    75% {content: "  .:^^~^:.                  ::.             ^~            7            7            .!               :! ..::.. .";}
+}
+
+spiralseven::before {
+    content: "       .....   .:::...       .::.            ~^           7.          ~.           :^     ..::::.  ^^          .";
+    animation: tryasdfgh infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryasdfgh { 
+    0%  {content: "       .....   .:::...       .::.            ~^           7.          ~.           :^     ..::::.  ^^          .";}
+    25% {content: "            ..:.      ..:::...  .^^            :~           ~.          .!       .....J~..             ~.      .";}
+    50% {content: ".                     .::.             .!~........::.!?:::.::::..:Y...        .~             ~:                .";}
+    75% {content: ":.       .::..                .^:.           .~.          .!           ?            7.              ^^        .^";}
+}
+
+spiraleight::before {
+    content: "         .:~!!!:.               .^:           .!.          7          :^           ?            .:J7...        .";
+    animation: tryasdfghj infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryasdfghj { 
+    0%  {content: "         .:~!!!:.               .^:           .!.          7          :^           ?            .:J7...        .";}
+    25% {content: "               .^!~!^..            :^.           !.          ?          .7           .! ...:::..     .~        .";}
+    50% {content: "......                   .::.   ...:::...:7~.         :!          !^....:::::.7~            ^^                .7";}
+    75% {content: "             .::..               :^.           ^~          ~~          7           .7              !:           ";}
+}
+
+spiralnine::before {
+    content: "     .:^:.      .::.              .^^           ~:         .~         .!          .~             !.  ..:^:.    .";
+    animation: tryasdfghjk infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryasdfghjk { 
+    0%  {content: "     .:^:.      .::.              .^^           ~:         .~         .!          .~             !.  ..:^:.    .";}
+    25% {content: "           ..::..  ..:..             :^.          ^^         :!          7           7         .:::.~~         .";}
+    50% {content: "     ...:..              ..:~!7~.          .~.         :!         .!          ?:.::::..    :~                ^:.";}
+    75% {content: "                 .::.              :~^...:::::::^?~.........?~.:::::::.J^.         !.            .!.            ";}
+}
+
+spiralten::before {
+    content: "~:.                    .:^..        ..:77~:::.... .7:        J.....::::5:..      .!           .!              .~";
+    animation: tryasdfghjkl infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryasdfghjkl { 
+    0%  {content: "~:.                    .:^..        ..:77~:::.... .7:        J.....::::5:..      .!           .!              .~";}
+    25% {content: "..     .:::.           .::.            :^.         :~         !.         7          :~            .?^:::.      .";}
+    50% {content: "          ..::..    .:::..     .^:.          ^^         :~         7          7       .:::~?               :^  .";}
+    75% {content: "                     .::.     ..::::::!~.         ~:         7         !~..:::::. .7            .!              ";}
+}
+
+spiraleleven::before {
+    content: " ...::...                 ..^^:::::...   :^.        ~:       .!        ?....::::.?.          :!               .!";
+    animation: tryq infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryq { 
+    0%  {content: " ...::...                 ..^^:::::...   :^.        ~:       .!        ?....::::.?.          :!               .!";}
+    25% {content: ".::.   ..:::..                :^:. ..::::..^7:        7.       ~^ ....::^Y...      ~:           ^~          .::^";}
+    50% {content: "           .:^:.    .::.            .^:         ^!........?^ .     .~        ^^          7      .::..  .~.     .";}
+    75% {content: "   ...::..          .:::.. .:::.          ^^        .~        7.       ^~         7   .:::..  ^^               .";}
+}
+
+spiraltwelve::before {
+    content: "       ...::...          ..::^^~^.         :~.       ^^       !.       7        :J:::.      ^~              .^.:";
+    animation: tryqw infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryqw { 
+    0%  {content: "       ...::...          ..::^^~^.         :~.       ^^       !.       7        :J:::.      ^~              .^.:";}
+    25% {content: ".            ..::..          ..:~~7~.        ^^        !.       7        7 ..::::..7           ~:              ^";}
+    50% {content: ".       .::.           .:^:.          .!!^:::::..:7^.......?^....::^Y:...    7          7          ..~?!       .";}
+    75% {content: "         ..::....:::.          .^:.         ^^       :?.....  .7       .~        !.       ..^J!              .^^";}
+}
+
+spiralthirteen::before {
+    content: "             ..:::.. .:::.       .^:.        :^       ^!       ?       7.       !.   .:::. ~:             .^.  .";
+    animation: tryqwe infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryqwe { 
+    0%  {content: "             ..:::.. .:::.       .^:.        :^       ^!       ?       7.       !.   .:::. ~:             .^.  .";}
+    25% {content: "                  ..::.. .:::..    .^^.       .~:       7.      !:       7       .J~:..      .!.              .!";}
+    50% {content: "....^~~!^.                 .:::. ..:::...:~.       ^^       7       7. ...:::Y.        !.           :^..::.    .";}
+    75% {content: "             .~~^^:..             .::   ...::~?!:......J:......J!::::..:!        7          ~. :^:.        .^.  ";}
+}
+
+spiralfourteen::before {
+    content: "                  :!!!~:.           .^:    ...^?7:::::.!J::::::J!....  7.      .7        .J7..          :^.    .";
+    animation: tryqwer infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryqwer { 
+    0%  {content: "                  :!!!~:.           .^:    ...^?7:::::.!J::::::J!....  7.      .7        .J7..          :^.    .";}
+    25% {content: "                     .^7~!^.          .^:       ^7:.....:J:.... .7      .7       :~   .:^.  :~              :^..";}
+    50% {content: "  .^^.  ...:::..             .~!!!:        :^.      .~      .~      ~:      :!.:::.   !.          .~.     .^:. .";}
+    75% {content: "          .^^.      ..:::.         .~77!.      :~       !       !     .^J:::.   !.        .!      .^:.   :^.    ";}
+}
+
+spiralfifthteen::before {
+    content: "               .:^.     .:::.        .~77~...   :~.     :~      ?  ...:Y^..    !.        !.  :^:.     :~.      .";
+    animation: tryqwert infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryqwert { 
+    0%  {content: "               .:^.     .:::.        .~77~...   :~.     :~      ?  ...:Y^..    !.        !.  :^:.     :~.      .";}
+    25% {content: ":::.....          .:^.     .:^:.        ^7!~:::...7~     .?. ....Y^:::. :~       ?       .:J7            .^:   .";}
+    50% {content: "^^:            ..::::.   .::..    .::.       :~.  ...^?:.....?:     :^      !.    .::J!          ^^          :^~";}
+    75% {content: ".      .:^.              .:::..:::..   .^:       ^:      !      !.     :~   .::~Y.       :!          .~!~.      ";}
+}
+
+spiralsixteen::before {
+    content: ".:::::....   :^.            ..:^::::..   .^:      ^:     :^     !.     !. .::::?        !.     .:^. .^.        .";
+    animation: tryqwerty infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryqwerty { 
+    0%  {content: ".:::::....   :^.            ..:^::::..   .^:      ^:     :^     !.     !. .::::?        !.     .:^. .^.        .";}
+    25% {content: "      ....:::...^~:            .:^:.::::. .^^.     :~     .!     :^   ..7?:..   ~:        ~. :^.       .^:     .";}
+    50% {content: ".                    .~7!!:.         .:^....::^!?:.....?: ...:Y.::::~?      7       ^~.:^.     :~              ^";}
+    75% {content: "....:!!7^...               .^~^~:.        :^.   ..~?:....^J.... :!     :^      7:.^:.   :~           :^:^^.     ";}
+}
+
+spiralseventeen::before {
+    content: "        ..^?!~:....          .:^:^^:.      .^:  ...!?:.::.?~... :!     7      ?~^:.   .!          !J!          .";
+    animation: tryqwertyu infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryqwertyu { 
+    0%  {content: "        ..^?!~:....          .:^:^^:.      .^:  ...!?:.::.?~... :!     7      ?~^:.   .!          !J!          .";}
+    25% {content: "             .!~:::::...       ..^^^~:.      :^     .7.    ~^     7     ~: ..::^?       .!     .^:   :^:       .";}
+    50% {content: ".                  .:^.   ..:::.     .:~~7~.     ^.     !     ^:    .?.:::.:!      :~    .^: .~.             .:~";}
+    75% {content: "   .^:    ....::::...   .::.     .::.    ..^77~... .7:    :7 ....Y^::. ~^     :!    .::!^          :^.    :^.   ";}
+}
+
+spiraleighteen::before {
+    content: "         ^^      ...::::...^^.      .::.  ..:~?!... .7.    ?: ..:5^::. ?     .!   :^.:~         :~. .~:        .";
+    animation: tryqwertyui infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryqwertyui { 
+    0%  {content: "         ^^      ...::::...^^.      .::.  ..:~?!... .7.    ?: ..:5^::. ?     .!   :^.:~         :~. .~:        .";}
+    25% {content: "           .^:        ..:::.:^^.      :^:   ..^?7^::.:?~..:.J~:::.Y.    !.     J^^:    :~         ~7~.         .";}
+    50% {content: ":..::::::.....   .^:           .^!!!:.    .^:     ^!. ...J.    ?     7    .J~:.   .!       .?J.           .:^. .";}
+    75% {content: " .~.               ..^77!:.         :!77^.    :^     ^^    ^:    ~.  ..?!:.   7       !~^:       ^^.        :^. ";}
+}
+
+spiralnineteen::before {
+    content: "       ^^               :7~^:..      .^77!:    .^.    ~.    !    ~. ..:5:.   7      ~J^       .~.     .~.      ^";
+    animation: tryqwertyuio infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryqwertyuio { 
+    0%  {content: "       ^^               :7~^:..      .^77!:    .^.    ~.    !    ~. ..:5:.   7      ~J^       .~.     .~.      ^";}
+    25% {content: "          ^:              :~^^::..     .^77!.   .~:    ~.    7    7~:::.J     ^:  .^:.^:         :^:^:         .";}
+    50% {content: "            ...^?!^::...      .::...::.     :7!^::.:?~...:J:.::?!:...7     7  .^::!       :~. ^^        :^:    .";}
+    75% {content: "~:                  ^^    .::::. .::.  .::.    .!~....77....Y:.  :~    !. .::7~      !.  .^:   ^^.            ^!";}
+}
+
+spiraltwenty::before {
+    content: "     .!.              .^.     ..::^~~.    :^.   .77^:::J7:::77.. ^^   .! .::!~     ^^  ^^   .~:         :~  :^:^";
+    animation: tryqwertyuiop infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryqwertyuiop { 
+    0%  {content: "     .!.              .^.     ..::^~~.    :^.   .77^:::J7:::77.. ^^   .! .::!~     ^^  ^^   .~:         :~  :^:^";}
+    25% {content: "::::::::!?^.......      .^.      .:^~~^.   .^.    ~7....J^.. !^   :^   .Y::. .!     .Y7.      .^^.   .~.       :";}
+    50% {content: "              ^^      ...::^~7^.      .~!~^.. .^:    ^:   .~    7 ..:5:.  ^:    .Y~.     ~:     ^^   .^:       .";}
+    75% {content: ".......           ^^          .~7!^.      :7!^:..:7:   :!   .J..:^Y..  7    .J:^.  .!      .!!^.             .:!";}
+}
+
+spiraltwentyone::before {
+    content: "...:?7:.::::::::::...!!.        .~^:::.    :!77:. .!:   ~:   ?...~Y:. :^    J:^.  ~^     ^~^:           .^J!   .";
+    animation: tryz infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryz { 
+    0%  {content: "...:?7:.::::::::::...!!.        .~^:::.    :!77:. .!:   ~:   ?...~Y:. :^    J:^.  ~^     ^~^:           .^J!   .";}
+    25% {content: "       !:     .....:::~?!:..      :^.:::.   .~77^..:?^ ..?^..:Y:::~!   :^  .^5.    .!  ^^   .^^        ^^   .::~";}
+    50% {content: "            .~.           :~:..:::. .::...^:    :7^...7?::.7!.. ?    7 .:^5.    7  .~. :~        .7^:.         .";}
+    75% {content: "............:::.~?!:.....    :^.   ..:^:^:...^:    ^^   ^!   ~.   ?..:^Y.   !.  .^~!       :^~~          .::..  ";}
+}
+
+spiraltwentytwo::before {
+    content: "   ~:              :?:..:::::.^7:     .~77^.  .^:  .!!...J:. ^~   7 ..J!   !.  :~7.     .^!!         .:^.  ~^  .";
+    animation: tryzx infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryzx { 
+    0%  {content: "   ~:              :?:..:::::.^7:     .~77^.  .^:  .!!...J:. ^~   7 ..J!   !.  :~7.     .^!!         .:^.  ~^  .";}
+    25% {content: "     .!.             ^^   ..:::~7!.     :77!.  .^.   ~^   ?   ^.  :J::.7.   ~^:^  :~     ~^^:           ^?::.  .";}
+    50% {content: "...........^?.....       ~:       ^?!~.    .!7!:..^!.  :~   ?...?7:..7   :!:^. !     ~Y:        :^:!.          .";}
+    75% {content: "               :~     ....:7?~...   .:^:^:.   .7!^..~J:..!?.:^Y.. 7   .7.^:^~    ^?~.    :~.  .!.     .::.      ";}
+}
+
+spiraltwentythree::before {
+    content: "  !.              .~        .7^..::..^^.  .^:..:~?~. :?. .J:..Y^:.J   7.:^~!    7!:    ^^  .!     .::.      ^^ .";
+    animation: tryzxc infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryzxc { 
+    0%  {content: "  !.              .~        .7^..::..^^.  .^:..:~?~. :?. .J:..Y^:.J   7.:^~!    7!:    ^^  .!     .::.      ^^ .";}
+    25% {content: "    .!              ~:        ^^...:::^~.  .::...!?~..!?..^Y::~J. .!  .5^. .!  .~?:     .~J^         .:^.:7    .";}
+    50% {content: ":.........!!...........~J^.::.. .~:    .~!!:  .^.  .?^..!7..^!  .~ .~Y.  7   ^5.    ^^.!.    .^:.   ~:         :";}
+    75% {content: "              ^^          ~:   ...~7!.    ^77~. .~:  .7.  !.  !:..Y~. ~.  .P^   ^^  ~: :~.      ~. .^:.         ";}
+}
+
+spiraltwentyfour::before {
+    content: " !.              .7        .!      ^7^^:. .:~~~.  ^~. :?. :7  ^:  Y^:.?   Y~. .7. :~ ^^.     7 .^:.          ~:.";
+    animation: tryzxcv infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryzxcv { 
+    0%  {content: " !.              .7        .!      ^7^^:. .:~~~.  ^~. :?. :7  ^:  Y^:.?   Y~. .7. :~ ^^.     7 .^:.          ~:.";}
+    25% {content: "   .J........:..:..?!.:......7:     :~:^:...:~!!.  ^^  ^~  ~:  ?::~Y  .~ :~J    ~!^   .^:  ~^     .:^.    .!   .";}
+    50% {content: "         .~           .!      .!7^::. .^...::..:!?~..~~  ~~ .J~:^J  :^ .?7   !:~: .~.   !. :^.       !.    ..::~";}
+    75% {content: "             ^7   ...    7:      ^^  .:^~~.  :^:..!?~.:J~.^Y:.~7  ~. :P:  !. ~:~:    7J.        :5^.            ";}
+}
+
+spiraltwentyfive::before {
+    content: "!~ ....:::::::::^Y::::::::^Y^::...7^    !7!:  .77~.:?^ .J. !!.~J. 7  !J. ~. ^!!    !5.      .!Y.              !~";
+    animation: tryzxcvb infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryzxcvb { 
+    0%  {content: "!~ ....:::::::::^Y::::::::^Y^::...7^    !7!:  .77~.:?^ .J. !!.~J. 7  !J. ~. ^!!    !5.      .!Y.              !~";}
+    25% {content: ":..Y:....         ~^      ..J:.:::^?~    !77:  .7!^.!?:.!7.:Y:.7: .?.^J.  7~^ .!  :~.^^     !. :^:.        ^^  .";}
+    50% {content: "         7            7       ^:    :?!^.  :~~!.  ~!..!7..J: ^!  J::J:  ?^^ ~.  ~?^     :5^.          J.:::.   .";}
+    75% {content: "...::::::::.^Y..........J~.::::^J~.   :^..::::^~7:  !:  ?. :~ .Y::J^  7.^!^   Y7   .~.~:     :^: .!             ";}
+}
+
+spiraltwentysix::before {
+    content: "Y....           ~:        !.    .?:.::!7:  :77~  ~~..?~.~?..J  ?.:5: !..?7  :J~  .~.^:   .::. !.           ..:^B";
+    animation: tryzxcvbn infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryzxcvbn { 
+    0%  {content: "Y....           ~:        !.    .?:.::!7:  :77~  ~~..?~.~?..J  ?.:5: !..?7  :J~  .~.^:   .::. !.           ..:^B";}
+    25% {content: "  :^              7        !.    .7...^77:  :??^ .!: :?. 7^ ^~ ^?:~!  J^.~: .Y~    J7      .~5..            7  .";}
+    50% {content: "        !: .....:::::Y~::::::!?....:7   .77~. .!7!..7: ^7 .J..Y:.?  ?~:~: .P^  .~?.   .^.^^       ..::!!       .";}
+    75% {content: ".           ~.         .~      7. ..^J!.  :~~~. .77^.!?..J:.Y^.J. 7~:?: .5~ .! :^ ^:   7  :^:     !.        ..:^";}
+}
+
+spiraltwentyseven::before {
+    content: "                7        .7     !.   ^^..~7!  :7!::7^ ~! ^7 !7.Y^ ?.~Y  7~.^^ ^^^:   ?.:^.    .~     ..:::..   ~";
+    animation: tryzxcvbnm infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes tryzxcvbnm { 
+    0%  {content: "                7        .7     !.   ^^..~7!  :7!::7^ ~! ^7 !7.Y^ ?.~Y  7~.^^ ^^^:   ?.:^.    .~     ..:::..   ~";}
+    25% {content: "  ?              ^~ ......^J.....J.   ~. .!?~  ^7~:~?..?:.J::5:^7 ^?:!. 7J  ~!^  ^^ 7   .:^. 7              ~J:~";}
+    50% {content: "....:::^Y.....       ?       7    ^?:::~7.  !7!. ^!::77.!?.7! 7. Y^:7 .P. !.~.^^  7.:^.   7   .:::.    7       .";}
+    75% {content: "            ?          ?. ... ~~    !   ~7~. .!!~  !^.~7.^? ^! !!:J  Y~.! .?~   Y!     7?:.       .!  ..::::..  ";}
+}
+
+spiraltwentyeight::before {
+    content: "               .J...:::::77....:J.::!?..:!..~7~..!^:77.!7.?~^J ~^^5 ^~^7  5^  ~Y   .:5:       .J..:::.         .";
+    animation: asy infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes asy { 
+    0%  {content: "               .J...:::::77....:J.::!?..:!..~7~..!^:77.!7.?~^J ~^^5 ^~^7  5^  ~Y   .:5:       .J..:::.         .";}
+    25% {content: " .!       ...::::J~.....  ~:    ~~...J~:.~^ .77^.^!.^?^:J:^?.7:.Y:?. P..~:~~. !~^   !:::.    ~.      ..:::...? .";}
+    50% {content: ":..    .~           .~      :!    7.  :^ .!7: .77:.!^ !! 7^ J.~?.J ~J.!.^?. ^5.  .Y~      ?^::.        !.      .";}
+    75% {content: "           .7  ...:::::Y:.....J...:?^::~!  ^7~..^7!.^?.^? !!.Y:7^ Y^~^ 5^ :J: :^^^  .^:^~        .:5::..        ";}
+}
+
+spiraltwentynine::before {
+    content: "         ...:::^Y..      ^:    .^   !  :7::7^ :7!.^7.~7.?~:J ?:7~:!^Y !? ~^^:^ 7 .^: !     ..:^Y.              .";
+    animation: asya infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes asya { 
+    0%  {content: "         ...:::^Y..      ^:    .^   !  :7::7^ :7!.^7.~7.?~:J ?:7~:!^Y !? ~^^:^ 7 .^: !     ..:^Y.              .";}
+    25% {content: " ^^ ..:::....    !.       ^.    !.  :~  !:.~7:.!7^.7^.?::J.?^^?:? Y^!.~J .P  :J:  .:J^       !^..:::..       7 .";}
+    50% {content: "       ^^           ^?.::::.!7...^?..^Y:.~^ :7!..!!:^?.~7.J:7!:7 Y^? ?7 !? ^:7 :^.~.  ..::J.           ~.      :";}
+    75% {content: "       ...:!J....      7      !    ~  .~ :?!..!!~.~7^^J:~?.Y.?:^J^7 5::^~~. J^. .?::.  .~   ..:::. ?            ";}
+}
+
+spiralthirty::before {
+    content: "   ..:::...     7        .! ...^?.::J::?:.!:.?!.^7!:?^^J.J:7~!~~^?~^77:^J :Y. .Y:.   ?..::..  .~               .";
+    animation: asyas infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes asyas { 
+    0%  {content: "   ..:::...     7        .! ...^?.::J::?:.!:.?!.^7!:?^^J.J:7~!~~^?~^77:^J :Y. .Y:.   ?..::..  .~               .";}
+    25% {content: ":?!..            :^     ..~?:::.?^..?^.~7.^~ ~7^.!7^~?.?^~?:J:?.J~7.P.!!^:~!^ ~^::. !    ..::Y:.             !..";}
+    50% {content: "       :^     ..:::..J       ~    !  :: :~.~?..!7::7~^?^7!^?:?.J^?.5:~~7 !7  J^.  7:::.   7          ..?~.:::..^";}
+    75% {content: " ..::::..   7          ~.  ...J^::~?::?^.!: !~^:~!~.7~^?:?^!~^?~!:?!:!7 J^.^?  :7~     !!::..      ?            ";}
+}
+
+spiralthirtyone::before {
+    content: "::...           ~:    ..::J^..  !   ~  7 ^!:?::7!:!7^!7^J:J^J^7!!7^Y.5:7?:~~.:~:  ..7!.       !.               :";
+    animation: asyasd infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes asyasd { 
+    0%  {content: "::...           ~:    ..::J^..  !   ~  7 ^!:?::7!:!7^!7^J:J^J^7!!7^Y.5:7?:~~.:~:  ..7!.       !.               :";}
+    25% {content: " ^:               ?.::::.. !    .^  ^: ^..7.!!.!!~:7~^?:J^?^J:J^?^77:5.?^.J. :J.   :!.:::.. .!               7..";}
+    50% {content: "       .?.:::..      ~.      7:.::J:.~!.?^:7.!!^^~7^!!^?^J:J:J~J:??.5.7!:?::~! ..!7      ^^  ...:::....?.      .";}
+    75% {content: ":..         7        ..^Y:... :^   ~  ~ .7.?~:!^!~~?^~!^J:Y:Y^?^!Y.Y^~?^^7..7:. ~  .:::J          :^           .";}
+}
+
+spiralthirtytwo::before {
+    content: "                 7..::..   ~    .!..!7.?^!^~^~!~~~!~7!!7~?7!J^J?~Y!?!7~!~.7^ .7::..:~        .7 .....:::::::...^";
+    animation: asyasdf infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes asyasdf { 
+    0%  {content: "                 7..::..   ~    .!..!7.?^!^~^~!~~~!~7!!7~?7!J^J?~Y!?!7~!~.7^ .7::..:~        .7 .....:::::::...^";}
+    25% {content: " .!            .::!7       .~  ..?!::?.~~^7^7:7~~~7~!7~?~J~?7!J~7Y^Y~Y^?~^?:.!. ..~7.       !                ? :";}
+    50% {content: "    .:::Y.            !  .::::!   .^  ! ~.~^!!^!~!~!!~?^J^J~??!?J~J7!7~7:?:.!~:..~   ...^?:...         7       .";}
+    75% {content: "            :~   .:::.. ^:     ^:..!7.!!:?:7:7^7~~7~!!~?~?!7?~?7!7J^Y^Y:J::?. .!!..   ~.          ?......::::::^";}
+}
+
+spiralthirtythree::before {
+    content: "              ..:~?         ~..::^!. :. ~:~7^?~7~7~7!7777?!J77J?J7YJ?Y!J^?^.~!.   .~....:::.^J:....            .";
+    animation: asyasdfg infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes asyasdfg { 
+    0%  {content: "              ..:~?         ~..::^!. :. ~:~7^?~7~7~7!7777?!J77J?J7YJ?Y!J^?^.~!.   .~....:::.^J:....            .";}
+    25% {content: "  ?        .::..   ~:       ^J^.  ^. .~.7^!!~?~7~7!!7!?!?!7J!??7??JY?J?7~7..~!.. .^        !^ .....::::::::.!J.~";}
+    50% {content: "::::.   :~           .^J^.     ^   ~7:^!:!~!?^?~7~77~?~J!?7!J?7J?Y7YJ7Y~J^:7.  .7^::.. .!             !.       .";}
+    75% {content: "             ?~::.       ^:  .:^7~  :: ^.!^7!~?~77~77!?!??!J77J???Y?J77!!:7^.:!:     !^...::::::.?~..           ";}
+}
+
+spiralthirtyfour::before {
+    content: "           .:^:.  .~       .^?~    :..!7~~!7?7?!?7777?7??7JJ?JJYYPPPPY7!~:.~~...^7~....    .!                  ~";
+    animation: asyasdfgh infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes asyasdfgh { 
+    0%  {content: "           .:^:.  .~       .^?~    :..!7~~!7?7?!?7777?7??7JJ?JJYYPPPPY7!~:.~~...^7~....    .!                  ~";}
+    25% {content: "  ^^   .:^:.        ^:   .^:. ^.   :!~^~:^~7777!?!77!?!?7?J?JJJYYYPPY?7!7:^!.   ^!..::::::?^....            7. .";}
+    50% {content: ".        !.       .:^.  ^.     .7!: .^. ^~7???7?!77!?!?7J?7JJJYJ5Y5P5J7!^^7^.:~^      .~             :~        .";}
+    75% {content: "          .:^:?.          ^?~.   .^  ^7~~~!7?77?77777?!??7Y??JJYY5PP55J!~~. .!:.:::~7:..        :~              ";}
+}
+
+spiralthirtyfive::before {
+    content: "7       .^^.       .~.   .^:  .^.   !7: .:~Y5GPJ???7??J??YJJYY5PB&&GYJ?~^~^:.  :^         .~                   P";
+    animation: asyasdfghj infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes asyasdfghj { 
+    0%  {content: "7       .^^.       .~.   .^:  .^.   !7: .:~Y5GPJ???7??J??YJJYY5PB&&GYJ?~^~^:.  :^         .~                   P";}
+    25% {content: "   ?:::.             :~^^.     .:.:^.....^J?YPYJ???7????JJJY5J5PB&&#GY!^:~~:.:~!.        ~.                :~  .";}
+    50% {content: "          7.   .:^.      ::   ^^..:.  .7!:^!JG5J???????J??YYJYYPG&&BYJ7~~.  :^.  ....~~.............^J.........^";}
+    75% {content: "       :^:.    !.       .^:.^.     ~?: ..:!J5P5JJ?????J??JJYY5YPB&&#Y!!7^:~!:.    ::           :~               ";}
+}
+
+spiralthirtysix::before {
+    content: "~:   .^:.            :::^.      .:^7   ...Y^^Y&#5YJJ?JJJYYY55PB&@&#Y^^~~^.  .^~:. ..    .~:                   !^";
+    animation: asyasdfghjk infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes asyasdfghjk { 
+    0%  {content: "~:   .^:.            :::^.      .:^7   ...Y^^Y&#5YJJ?JJJYYY55PB&@&#Y^^~~^.  .^~:. ..    .~:                   !^";}
+    25% {content: ".::^J               .^^~.        7!.   .:J::^5&BPYJ???JYJYY5PPB&@@B~!!~^.   ...        ::                 .7   .";}
+    50% {content: "           !..^:           ^!~     .::7. ..:PY##GYJJJJJJJYY55PB&@@&Y~~~^:^~^^......^~...           ^7       .. ^";}
+    75% {content: "   .:^:.        ~:    .^:    .:.  ^: .:. :J:~Y&#5YJJJJJJYY555PB&@&G57^..^^.    .^^.           ^:                ";}
+}
+
+spiralthirtyseven::before {
+    content: " 7~::.               :7!.        :7:..   .?...^P5JY5P5PPPGGGBBB5!!~~^....:~~:.........:!!^.:::::::::::...... !^.";
+    animation: asyasdfghjkl infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes asyasdfghjkl { 
+    0%  {content: " 7~::.               :7!.        :7:..   .?...^P5JY5P5PPPGGGBBB5!!~~^....:~~:.........:!!^.:::::::::::...... !^.";}
+    25% {content: ":   .!            .^:   .^.    .!   .:. ^^ ...YY?YP5G55PGPBBBBP55?!:^^::^~~!^:::::..:~7: .               .!    .";}
+    50% {content: "          .^J~            .~::.      ?:...  J::!YBP5YP555PGPB#BPJ7~^...::.       :.               :^           .";}
+    75% {content: ".:^:.            .^..^.         :J^     .?~...^PJY55GP55PGBGGGBG7:^^^~^::...:~!^:...::::::::!?~........         ";}
+}
+
+spiralthirtyeight::before {
+    content: "^:?:               :~.  .::     :!    ...^7    .~!.:^!YJJ7^~~~::^^:...::..          .::                 ....7!.~";
+    animation: qwe infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes qwe { 
+    0%  {content: "^:?:               :~.  .::     :!    ...^7    .~!.:^!YJJ7^~~~::^^:...::..          .::                 ....7!.~";}
+    25% {content: "     .!         :^.       .:: :~       .J^..   7^..:????!~7?~^~^:.. .....         .^^. .....::::::::....:?.    .";}
+    50% {content: "        :^.  :~          ~:    .:.  ^:    ..7~....~?~^^7!7?!~:..::^^^:^::.:.::^~:.              .~.            .";}
+    75% {content: ":.                :J7.          !...:.   !. ...:?^.:~!YJ!!~^~~~^:~^:.     ...             .^:      .......:::::^";}
+}
+
+spiralthirtynine::before {
+    content: "   !:            .~:       ::. .!        :?..... ^!     .:~:.  ...::^.::::...     .:.                      ^:  .";
+    animation: qwer infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes qwer { 
+    0%  {content: "   !:            .~:       ::. .!        :?..... ^!     .:~:.  ...::^.::::...     .:.                      ^:  .";}
+    25% {content: "       !.     :~.            !?.        ?  .....?^..  .^!^.. ..::^^^~^:.       .::.                   .!!..::::~";}
+    50% {content: "     .^^.      ^:      .!.        .^J.       ? ....:~!:....^^^~^:.        .:^:...:::::...      :^              .";}
+    75% {content: "                .~:  ^:.       7.     ...J:      !^    ..^^:       .:~!^!~:.            .^:                     ";}
+}
+
+spiralfourty::before {
+    content: "    ^~          ~^           .^5:         7       :?^.... .:^!~.            .:~!!~:                      .!.   .";
+    animation: qwert infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes qwert { 
+    0%  {content: "    ^~          ~^           .^5:         7       :?^.... .:^!~.            .:~!!~:                      .!.   .";}
+    25% {content: "        ^^  .~.             :^  .:..    7        !^  .....^~^.         ..:^^^~^.                     .~.       .";}
+    50% {content: "   :^:          .^:   ^^           ~: ..:..  !.       ^^        .:^^......             ....:^!7:               .";}
+    75% {content: "               ~^      .:.    !.         7:.......!~.     .^!~^:.....     ..::::..   .::.                       ";}
+}
+
+spiralfourtyone::before {
+    content: "     .!.      :~              7. .::..    7         ~:         .^:        .....   ..:::..               :~     .";
+    animation: qwerty infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes qwerty { 
+    0%  {content: "     .!.      :~              7. .::..    7         ~:         .^:        .....   ..:::..               :~     .";}
+    25% {content: "         .7?:              :~      ....:J         ~:        .:^.      .........:::.                 ^^         .";}
+    50% {content: ".:^.              .:~?.            7       ..:Y:.......^7^.........::^^:.                 .::.  ..::::...      .";}
+    75% {content: "             ^^          .::.!^          ~:        :?. ..     .^:.               .~7!!:.                        ";}
+}
+
+spiralfourtytwo::before {
+    content: "       ^^   .~.              ~:      .....J.         :~          .^!^::....             .::::..       .~.      .";
+    animation: qwertyu infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes qwertyu { 
+    0%  {content: "       ^^   .~.              ~:      .....J.         :~          .^!^::....             .::::..       .~.      .";}
+    25% {content: "        .^:.^:            :!            ?..........7~      .  .~7~:....           .::::.          :^.          .";}
+    50% {content: "^                  .!::.          ^:          ^:         .!^            .::..          .::.            ..:::::.^";}
+    75% {content: "           .~.              ^?.:.        ^^          !.          .^:.         ..:..   ..:::..                   ";}
+}
+
+spiralfourtythree::before {
+    content: "         ^~!^               .!            !^......:.:.~?^....:.......^^:                     ..:::...~:        .";
+    animation: qwertyui infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes qwertyui { 
+    0%  {content: "         ^~!^               .!            !^......:.:.~?^....:.......^^:                     ..:::...~:        .";}
+    25% {content: "       ^^    .^:         .7             7         ..!7 .....     .^^.                  .::::.  .::.            .";}
+    50% {content: "                  ^^    ::..      ?            7           .^.             .:^:.    .::.                      .^";}
+    75% {content: "          ~:                ?   ..::..   .~           ~:            .^:. ...::.             .::::.              ";}
+}
+
+spiralfourtyfour::before {
+    content: "         :7~^.              ?             :^            !:             .:^.                       ^7~^::..     .";
+    animation: qwertyuio infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes qwertyuio { 
+    0%  {content: "         :7~^.              ?             :^            !:             .:^.                       ^7~^::..     .";}
+    25% {content: "     :~.       .::.      7              7            :~             :^:                     :!77:.             .";}
+    50% {content: "                 !:        .::.. .!            :~            :^.               :~!!~.                          .";}
+    75% {content: "        ^^                 7.        ....^Y...         ^~        ....:^~!~.                      ..:::.         ";}
+}
+
+spiralfourtyfive::before {
+    content: "        ~:   :^:           !:             .7             ^^               .^^.                 .:^.     ..:::. :";
+    animation: qwertyuiop infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes qwertyuiop { 
+    0%  {content: "        ~:   :^:           !:             .7             ^^               .^^.                 .:^.     ..:::. :";}
+    25% {content: "   .~.            .::.  !.              7             :!              .^^.                .::.   .:::.         .";}
+    50% {content: "               .!.             ..J!..           7.             ^^          ..::..  .::.                        .";}
+    75% {content: "~     .!.                 ^^              ?  .........:.!J:.:.....       .:^.                         ..:::.  .!";}
+}
+
+spiralfourtysix::before {
+    content: "      :~       .:^.       .!               ?              .!                 .^:.            :^:             ..~";
+    animation: p infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes p { 
+    0%  {content: "      :~       .:^.       .!               ?              .!                 .^:.            :^:             ..~";}
+    25% {content: " .~:                 ..J!               ?              :!                :^:          .::..          .::::.    .";}
+    50% {content: "              .!                 ?  ...::....   .7              .!^....::...          .:^:                     .";}
+    75% {content: " ^^  ^^                  .7               !.             .!.                .^:                            .~?7^";}
+}
+
+spiralfourtyseven::before {
+    content: "     ~:           .::.    7                !.               !.                  :^:      .:::.                 .";
+    animation: po infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes po { 
+    0%  {content: "     ~:           .::.    7                !.               !.                  :^:      .:::.                 .";}
+    25% {content: "^^                    :~ .::..          7.              .!                 .^:    .:::.                  ..:::.:";}
+    50% {content: "             ^~                 .7          .....?!..:::::..::....^7:                    .:^:.                 .";}
+    75% {content: "  .?Y.                   ?.               ^^               !:                 .:^.                        .^:  .";}
+}
+
+spiralfourtyeight::before {
+    content: "   :~                .:^:7!                :~                ~^                   .^~::::.                     .";
+    animation: poi infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes poi { 
+    0%  {content: "   :~                .:^:7!                :~                ~^                   .^~::::.                     .";}
+    25% {content: ".                    .7      ..::...    ~.               .7                  :77!.                            .~";}
+    50% {content: "            ^^                  ~^                7                 ^~                       .^^.              .";}
+    75% {content: "  ^:.:^.                ^^                .!                ^^                   .^:.                   .^:     ";}
+}
+
+spiralfourtynine::before {
+    content: "  !:                    .J.:::.             ?                 :~                ..::^^~^                       .";
+    animation: poiu infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes poiu { 
+    0%  {content: "  !:                    .J.:::.             ?                 :~                ..::^^~^                       .";}
+    25% {content: "                     ?            ...::.7!..              .7        ....:::..   .^:                            .";}
+    50% {content: "           ~:                   7                 :~                  ~^                        .:^:.          .";}
+    75% {content: ":~.    :^.             .7                  ?                 :~                     :^:               :^.       ";}
+}
+
+spiralfifthty::before {
+    content: ":~                      !.    ..:::...      7                  .!.        ..::::..      :^.                    .";
+    animation: poiuy infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes poiuy { 
+    0%  {content: ":~                      !.    ..:::...      7                  .!.        ..::::..      :^.                    .";}
+    25% {content: "                    !.                  ^! ......::..::::..^J^.:.....             .^^.                         .";}
+    50% {content: "          !.                    ?                  !.                  .~.                         .:^:.       .";}
+    75% {content: ":        .^:.          7.                  7.                 .!                      .^^.         :^:.         ";}
+}
+
+spiralfifthtyone::before {
+    content: ":                      .7           ...:^:::?!..                .J^::^:::...              .^^                  .";
+    animation: poiuyt infinite 0.7s;
+		color:lawngreen;
+}
+@keyframes poiuyt { 
+    0%  {content: ":                      .7           ...:^:::?!..                .J^::^:::...              .^^                  .";}
+    25% {content: "                   :~                   .!                   7.                      ^~.                       .";}
+    50% {content: "         !.                    :~                   7                    :~                            :^^.    .";}
+    75% {content: "            .^^.      :~                   ~:                   7.                       :~.    .^^.            ";}
+}
+
+
+    e   e                     ,e,              d8   888                                          ,e,          dP,e,           
+   d8b d8b    888   888  dP"Y  "   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    "  888 8e   8b "   e88 88e  
+  e Y8b Y8b   888   888 C88b  888 d88   '8   d88888 888 88b d88 88b d88   88b 888 "   Y8b Y8P    888 888 88b 888888 d88   88b 
+ d8b Y8b Y8b  Y88   88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P 
+d888b Y8b Y8b  "88 88"  d,dP  888  "88,e8'    888   888 888  "YeeP"  "88 88"  888       888      888 888 888  888    "88 88"  
+                                                                                        888                                   
+                                                                                        888                                   
