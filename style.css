@@ -874,10 +874,10 @@ span.tf {
 
 textani::before {
     content: "    e   e                     ,e,              d8   888                                          ,e,          dP,e,           ";
-    animation: animater 2s;
+    animation: animater 1.75s;
 		color: oldlace;
 }
-/*100/126 calcuations not done yet */
+/*100/126*/
 @keyframes animater {
     0% {
         content: "                                                                                                                              ";
@@ -1136,10 +1136,10 @@ textani::before {
 
 textanitwo::before {
     content: "   d8b d8b    888   888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";
-    animation: animaters 2s;
+    animation: animaters 1.75s;
 		color: oldlace;
 }
-/*100/126 calcuations not done yet */
+/*100/126*/
 @keyframes animaters {
     0% {
         content: "                                                                                                                              ";
@@ -1147,261 +1147,261 @@ textanitwo::before {
     0.79365079365% {
         content: "                                                                                                                              ";}
     1.5873015873%  {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                           e  ";}
     2.38095238095% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                          8e  ";}
     3.1746031746%  {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                         88e  ";}
 	  3.96825396826% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                         88e  ";}
 	  4.76190476191% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                       8 88e  ";}
 	  5.55555555556% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                      88 88e  ";}
 	  6.34920634921% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                     e88 88e  ";}
 	  7.14285714286% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                     e88 88e  ";}
 	  7.93650793651% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                     e88 88e  ";}
 	  8.73015873016% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                     e88 88e  ";}
 	  9.52380952381% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                 '   e88 88e  ";}
 		10.3174603175% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                 '   e88 88e  ";}
 	  11.1111111111% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                               b '   e88 88e  ";}
 	  11.9047619048% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                              8b '   e88 88e  ";}
 	  12.6984126984% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                               b '   e88 88e  ";}
 	  13.4920634921% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                               b '   e88 88e  ";}
 	  14.2857142857% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                               b '   e88 88e  ";}
 	  15.0793650794% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                          e   8b '   e88 88e  ";}
 	  15.873015873%  {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                         8e   8b '   e88 88e  ";}
 	  16.6666666667% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                         8e   8b '   e88 88e  ";}
 	  17.4603174603% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                       8 8e   8b '   e88 88e  ";}
 	  18.253968254%  {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                      88 8e   8b '   e88 88e  ";}
 	  19.8412698413% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                     888 8e   8b '   e88 88e  ";}
 	  20.6349206349% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                     888 8e   8b '   e88 88e  ";}
 	  21.4285714286% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                     888 8e   8b '   e88 88e  ";}
 	  22.2222222222% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                  '  888 8e   8b '   e88 88e  ";}
 	  23.0158730159% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                  '  888 8e   8b '   e88 88e  ";}
 	  23.8095238095% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                  '  888 8e   8b '   e88 88e  ";}
 	  24.6031746032% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                  '  888 8e   8b '   e88 88e  ";}
 	  25.3968253968% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                  '  888 8e   8b '   e88 88e  ";}
 	  26.1904761905% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                             P    '  888 8e   8b '   e88 88e  ";}
 	  26.9841269841% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                            8P    '  888 8e   8b '   e88 88e  ";}
 	  27.7777777778% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                           88P    '  888 8e   8b '   e88 88e  ";}
 	  28.5714285714% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                          888P    '  888 8e   8b '   e88 88e  ";}
 	  29.3650793651% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                         Y888P    '  888 8e   8b '   e88 88e  ";}
 	  30.1587301587% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                         Y888P    '  888 8e   8b '   e88 88e  ";}
 	  30.9523809524% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                       b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  31.746031746%  {
-				content: "                                                                                                                              ";}
+				content: "                                                                                      8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  32.5396825397% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                     Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  33.3333333333% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                     Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  34.126984127%  {
-				content: "                                                                                                                              ";}
+				content: "                                                                                   , Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  35.7142857143% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                  8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  36.5079365079% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                 ,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  37.3015873016% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                8,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  38.0952380952% {
-				content: "                                                                                                                              ";}
+				content: "                                                                               88,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  38.8888888889% {
-				content: "                                                                                                                              ";}
+				content: "                                                                              888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  39.6825396826% {
-				content: "                                                                                                                              ";}
+				content: "                                                                              888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  40.4761904762% {
-				content: "                                                                                                                              ";}
+				content: "                                                                              888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  41.2698412699% {
-				content: "                                                                                                                              ";}
+				content: "                                                                           e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  42.0634920635% {
-				content: "                                                                                                                              ";}
+				content: "                                                                          8e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  42.8571428572% {
-				content: "                                                                                                                              ";}
+				content: "                                                                         88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  43.6507936508% {
-				content: "                                                                                                                              ";}
+				content: "                                                                         88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  44.4444444445% {
-				content: "                                                                                                                              ";}
+				content: "                                                                       8 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  45.2380952381% {
-				content: "                                                                                                                              ";}
+				content: "                                                                      88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  46.0317460318% {
-				content: "                                                                                                                              ";}
+				content: "                                                                     e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  46.8253968254% {
-				content: "                                                                                                                              ";}
+				content: "                                                                     e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  47.6190476191% {
-				content: "                                                                                                                              ";}
+				content: "                                                                     e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  48.4126984127% {
-				content: "                                                                                                                              ";}
+				content: "                                                                     e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  49.2063492064% {
-				content: "                                                                                                                              ";}
+				content: "                                                                 ,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  50%            {
-				content: "                                                                                                                              ";}
+				content: "                                                                e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  50.7936507937% {
-				content: "                                                                                                                              ";}
+				content: "                                                                e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  51.5873015873% {
-				content: "                                                                                                                              ";}
+				content: "                                                              e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  52.380952381%  {
-				content: "                                                                                                                              ";}
+				content: "                                                             ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  53.1746031746% {
-				content: "                                                                                                                              ";}
+				content: "                                                             ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  53.9682539683% {
-				content: "                                                                                                                              ";}
+				content: "                                                             ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  54.7619047619% {
-				content: "                                                                                                                              ";}
+				content: "                                                             ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  55.5555555556% {
-				content: "                                                                                                                              ";}
+				content: "                                                         e   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  56.3492063492% {
-				content: "                                                                                                                              ";}
+				content: "                                                        ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  57.1428571429% {
-				content: "                                                                                                                              ";}
+				content: "                                                        ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  57.9365079365% {
-				content: "                                                                                                                              ";}
+				content: "                                                      8 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  58.7301587302% {
-				content: "                                                                                                                              ";}
+				content: "                                                     88 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  59.5238095238% {
-				content: "                                                                                                                              ";}
+				content: "                                                    888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  60.3174603175% {
-				content: "                                                                                                                              ";}
+				content: "                                                    888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  61.1111111111% {
-				content: "                                                                                                                              ";}
+				content: "                                                    888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  61.9047619048% {
-				content: "                                                                                                                              ";}
+				content: "                                                    888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  62.6984126984% {
-				content: "                                                                                                                              ";}
+				content: "                                                8   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  63.4920634921% {
-				content: "                                                                                                                              ";}
+				content: "                                               88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  64.2857142857% {
-				content: "                                                                                                                              ";}
+				content: "                                              d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  65.0793650794% {
-				content: "                                                                                                                              ";}
+				content: "                                              d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  65.873015873%  {
-				content: "                                                                                                                              ";}
+				content: "                                              d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  66.6666666667% {
-				content: "                                                                                                                              ";}
+				content: "                                              d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  67.4603174603% {
-				content: "                                                                                                                              ";}
+				content: "                                              d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  68.253968254%  {
-				content: "                                                                                                                              ";}
+				content: "                                         8    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  69.0476190476% {
-				content: "                                                                                                                              ";}
+				content: "                                        88    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  69.8412698413% {
-				content: "                                                                                                                              ";}
+				content: "                                       888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  70.6349206349% {
-				content: "                                                                                                                              ";}
+				content: "                                      '888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  71.4285714286% {
-				content: "                                                                                        888                                   ";}
+				content: "                                     8'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  72.2222222222% {
-				content: "                                                                                        888                                   ";}
+				content: "                                    88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  73.0158730159% {
-				content: "                                                                                        888                                   ";}
+				content: "                                   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  73.8095238095% {
-				content: "                                                                                        888                                   ";}
+				content: "                                   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  74.6031746032% {
-				content: "                                                                                        888                                   ";}
+				content: "                                   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  75.3968253968% {
-				content: "                                                                                        888                                   ";}
+				content: "                                   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  76.1904761905% {
-				content: "                                                                                        888                                   ";}
+				content: "                               '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  76.9841269841% {
-				content: "                                                                                        888                                   ";}
+				content: "                               '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  77.7777777778% {
-				content: "                                                                                        888                                   ";}
+				content: "                               '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  78.5714285714% {
-				content: "                                                                                        888                                   ";}
+				content: "                            Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  79.3650793651% {
-				content: "                                                                                        888                                   ";}
+				content: "                           'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  80.1587301588% {
-				content: "                                                                                        888                                   ";}
+				content: "                          P'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  80.9523809524% {
-				content: "                                                                                        888                                   ";}
+				content: "                         dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  81.7460317461% {
-				content: "                                                                                        888                                   ";}
+				content: "                         dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  82.5396825397% {
-				content: "                                                                                        888                                   ";}
+				content: "                         dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  83.3333333334% {
-				content: "                                                                                        888                                   ";}
-	  84.126984127% {
-				content: "                                                                                        888                                   ";}
+				content: "                      8  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
+	  84.126984127%  {
+				content: "                     88  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  84.9206349207% {
-				content: "                                                                                        888                                   ";}
+				content: "                    888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  85.7142857143% {
-				content: "                                                                                        888                                   ";}
+				content: "                    888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  86.507936508%  {
-				content: "                                                                                        888                                   ";}
+				content: "                    888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  87.3015873016% {
-				content: "                                                                                        888                                   ";}
+				content: "                    888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  88.0952380953% {
-				content: "                                                                                        888                                   ";}
+				content: "                8   888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  88.8888888889% {
-				content: "                                                                                        888                                   ";}
+				content: "               88   888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  89.6825396826% {
-				content: "                                                                                        888                                   ";}
+				content: "              888   888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  90.4761904762% {
-				content: "                                                                                        888                                   ";}
+				content: "              888   888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  91.2698412699% {
-				content: "                                                                                        888                                   ";}
+				content: "              888   888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  92.0634920635% {
-				content: "                                                                                        888                                   ";}
+				content: "              888   888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  92.8571428572% {
-				content: "                                                                                        888                                   ";}
+				content: "              888   888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  93.6507936508% {
-				content: "                                                                                        888                                   ";}
+				content: "         b    888   888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  94.4444444445% {
-				content: "                                                                                        888                                   ";}
+				content: "        8b    888   888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  95.2380952381% {
-				content: "                                                                                        888                                   ";}
+				content: "       d8b    888   888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  96.0317460318% {
-				content: "                                                                                        888                                   ";}
+				content: "       d8b    888   888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  96.8253968254% {
-				content: "                                                                                        888                                   ";}
+				content: "     b d8b    888   888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  97.6190476191% {
-				content: "                                                                                        888                                   ";}
+				content: "    8b d8b    888   888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  98.4126984127% {
-				content: "                                                                                        888                                   ";}
+				content: "   d8b d8b    888   888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  99.2063492064% {
-				content: "                                                                                        888                                   ";}
+				content: "   d8b d8b    888   888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  99.4841269842% {
-				content: "                                                                                        888                                   ";}
+				content: "   d8b d8b    888   888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  ";}
 	  99.8015873016% {
-				content: "                                                                                        888                                   "}
+				content: "   d8b d8b    888   888  dP'Y  '   e88'888    d88   888 ee   ,e e,   e88 88e  888,8, Y8b Y888P    '  888 8e   8b '   e88 88e  "}
 }
 
 textanithree::before {
     content: "  e Y8b Y8b   888   888 C88b  888 d88   '8   d88888 888 88b d88 88b d88   88b 888 '   Y8b Y8P    888 888 88b 888888 d88   88b ";
-    animation: animatercs 2s;
+    animation: animatercs 1.75s;
 		color: oldlace;
 }
-/*100/126 calcuations not done yet */
+/*100/126*/
 @keyframes animatercs {
     0% {
         content: "                                                                                                                              ";
@@ -1660,534 +1660,534 @@ textanithree::before {
 
 textanifour::before {
     content: " d8b Y8b Y8b  Y88   88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";
-    animation: animatercss 2s;
+    animation: animatercss 1.75s;
 		color: oldlace;
 }
-/*100/126 calcuations not done yet */
+/*100/126*/
 @keyframes animatercss {
     0% {
         content: "                                                                                                                              ";
 				color: oldlace;}
     0.79365079365% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                            P ";}
     1.5873015873%  {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                           8P ";}
     2.38095238095% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                          88P ";}
     3.1746031746%  {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                          88P ";}
 	  3.96825396826% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                          88P ";}
 	  4.76190476191% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                          88P ";}
 	  5.55555555556% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                      8   88P ";}
 	  6.34920634921% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                     88   88P ";}
 	  7.14285714286% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                    Y88   88P ";}
 	  7.93650793651% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                    Y88   88P ";}
 	  8.73015873016% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                    Y88   88P ";}
 	  9.52380952381% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                    Y88   88P ";}
 		10.3174603175% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                                8   Y88   88P ";}
 	  11.1111111111% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                               88   Y88   88P ";}
 	  11.9047619048% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                              888   Y88   88P ";}
 	  12.6984126984% {
-        content: "                                                                                                                              ";}
+        content: "                                                                                                              888   Y88   88P ";}
 	  13.4920634921% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                              888   Y88   88P ";}
 	  14.2857142857% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                           8  888   Y88   88P ";}
 	  15.0793650794% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                          88  888   Y88   88P ";}
 	  15.873015873%  {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                         888  888   Y88   88P ";}
 	  16.6666666667% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                         888  888   Y88   88P ";}
 	  17.4603174603% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                       8 888  888   Y88   88P ";}
 	  18.253968254%  {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                      88 888  888   Y88   88P ";}
 	  19.8412698413% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                     888 888  888   Y88   88P ";}
 	  20.6349206349% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                     888 888  888   Y88   88P ";}
 	  21.4285714286% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                   8 888 888  888   Y88   88P ";}
 	  22.2222222222% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                  88 888 888  888   Y88   88P ";}
 	  23.0158730159% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                 888 888 888  888   Y88   88P ";}
 	  23.8095238095% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                 888 888 888  888   Y88   88P ";}
 	  24.6031746032% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                 888 888 888  888   Y88   88P ";}
 	  25.3968253968% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                 888 888 888  888   Y88   88P ";}
 	  26.1904761905% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                 888 888 888  888   Y88   88P ";}
 	  26.9841269841% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                                 888 888 888  888   Y88   88P ";}
 	  27.7777777778% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                           Y     888 888 888  888   Y88   88P ";}
 	  28.5714285714% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                           Y     888 888 888  888   Y88   88P ";}
 	  29.3650793651% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                         b Y     888 888 888  888   Y88   88P ";}
 	  30.1587301587% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                        8b Y     888 888 888  888   Y88   88P ";}
 	  30.9523809524% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                       Y8b Y     888 888 888  888   Y88   88P ";}
 	  31.746031746%  {
-				content: "                                                                                                                              ";}
+				content: "                                                                                       Y8b Y     888 888 888  888   Y88   88P ";}
 	  32.5396825397% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                       Y8b Y     888 888 888  888   Y88   88P ";}
 	  33.3333333333% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                       Y8b Y     888 888 888  888   Y88   88P ";}
 	  34.126984127%  {
-				content: "                                                                                                                              ";}
+				content: "                                                                                       Y8b Y     888 888 888  888   Y88   88P ";}
 	  35.7142857143% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                       Y8b Y     888 888 888  888   Y88   88P ";}
 	  36.5079365079% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                       Y8b Y     888 888 888  888   Y88   88P ";}
 	  37.3015873016% {
-				content: "                                                                                                                              ";}
+				content: "                                                                                8      Y8b Y     888 888 888  888   Y88   88P ";}
 	  38.0952380952% {
-				content: "                                                                                                                              ";}
+				content: "                                                                               88      Y8b Y     888 888 888  888   Y88   88P ";}
 	  38.8888888889% {
-				content: "                                                                                                                              ";}
+				content: "                                                                              888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  39.6825396826% {
-				content: "                                                                                                                              ";}
+				content: "                                                                              888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  40.4761904762% {
-				content: "                                                                                                                              ";}
+				content: "                                                                            P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  41.2698412699% {
-				content: "                                                                                                                              ";}
+				content: "                                                                           8P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  42.0634920635% {
-				content: "                                                                                                                              ";}
+				content: "                                                                          88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  42.8571428572% {
-				content: "                                                                                                                              ";}
+				content: "                                                                          88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  43.6507936508% {
-				content: "                                                                                                                              ";}
+				content: "                                                                          88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  44.4444444445% {
-				content: "                                                                                                                              ";}
+				content: "                                                                          88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  45.2380952381% {
-				content: "                                                                                                                              ";}
+				content: "                                                                      8   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  46.0317460318% {
-				content: "                                                                                                                              ";}
+				content: "                                                                     88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  46.8253968254% {
-				content: "                                                                                                                              ";}
+				content: "                                                                    Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  47.6190476191% {
-				content: "                                                                                                                              ";}
+				content: "                                                                    Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  48.4126984127% {
-				content: "                                                                                                                              ";}
+				content: "                                                                  , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  49.2063492064% {
-				content: "                                                                                                                              ";}
+				content: "                                                                  , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  50%            {
-				content: "                                                                                                                              ";}
+				content: "                                                                  , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  50.7936507937% {
-				content: "                                                                                                                              ";}
+				content: "                                                                  , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  51.5873015873% {
-				content: "                                                                                                                              ";}
+				content: "                                                              8   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  52.380952381%  {
-				content: "                                                                                                                              ";}
+				content: "                                                             88   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  53.1746031746% {
-				content: "                                                                                                                              ";}
+				content: "                                                            888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  53.9682539683% {
-				content: "                                                                                                                              ";}
+				content: "                                                            888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  54.7619047619% {
-				content: "                                                                                                                              ";}
+				content: "                                                          8 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  55.5555555556% {
-				content: "                                                                                                                              ";}
+				content: "                                                         88 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  56.3492063492% {
-				content: "                                                                                                                              ";}
+				content: "                                                        888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  57.1428571429% {
-				content: "                                                                                                                              ";}
+				content: "                                                        888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  57.9365079365% {
-				content: "                                                                                                                              ";}
+				content: "                                                      8 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  58.7301587302% {
-				content: "                                                                                                                              ";}
+				content: "                                                     88 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  59.5238095238% {
-				content: "                                                                                                                              ";}
+				content: "                                                    888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  60.3174603175% {
-				content: "                                                                                                                              ";}
+				content: "                                                    888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  61.1111111111% {
-				content: "                                                                                                                              ";}
+				content: "                                                    888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  61.9047619048% {
-				content: "                                                                                                                              ";}
+				content: "                                                    888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  62.6984126984% {
-				content: "                                                                                                                              ";}
+				content: "                                                8   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  63.4920634921% {
-				content: "                                                                                                                              ";}
+				content: "                                               88   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  64.2857142857% {
-				content: "                                                                                                                              ";}
+				content: "                                              888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  65.0793650794% {
-				content: "                                                                                                                              ";}
+				content: "                                              888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  65.873015873%  {
-				content: "                                                                                                                              ";}
+				content: "                                              888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  66.6666666667% {
-				content: "                                                                                                                              ";}
+				content: "                                              888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  67.4603174603% {
-				content: "                                                                                                                              ";}
+				content: "                                              888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  68.253968254%  {
-				content: "                                                                                                                              ";}
+				content: "                                         ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  69.0476190476% {
-				content: "                                                                                                                              ";}
+				content: "                                         ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  69.8412698413% {
-				content: "                                                                                                                              ";}
+				content: "                                         ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  70.6349206349% {
-				content: "                                                                                                                              ";}
+				content: "                                         ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  71.4285714286% {
-				content: "                                                                                        888                                   ";}
+				content: "                                         ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  72.2222222222% {
-				content: "                                                                                        888                                   ";}
+				content: "                                    8    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  73.0158730159% {
-				content: "                                                                                        888                                   ";}
+				content: "                                   88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  73.8095238095% {
-				content: "                                                                                        888                                   ";}
+				content: "                                  Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  74.6031746032% {
-				content: "                                                                                        888                                   ";}
+				content: "                                  Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  75.3968253968% {
-				content: "                                                                                        888                                   ";}
+				content: "                                8 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  76.1904761905% {
-				content: "                                                                                        888                                   ";}
+				content: "                               88 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  76.9841269841% {
-				content: "                                                                                        888                                   ";}
+				content: "                              888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  77.7777777778% {
-				content: "                                                                                        888                                   ";}
+				content: "                              888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  78.5714285714% {
-				content: "                                                                                        888                                   ";}
+				content: "                            D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  79.3650793651% {
-				content: "                                                                                        888                                   ";}
+				content: "                           8D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  80.1587301588% {
-				content: "                                                                                        888                                   ";}
+				content: "                          88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  80.9523809524% {
-				content: "                                                                                        888                                   ";}
+				content: "                         Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  81.7460317461% {
-				content: "                                                                                        888                                   ";}
+				content: "                         Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  82.5396825397% {
-				content: "                                                                                        888                                   ";}
+				content: "                         Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  83.3333333334% {
-				content: "                                                                                        888                                   ";}
-	  84.126984127% {
-				content: "                                                                                        888                                   ";}
+				content: "                      P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
+	  84.126984127%  {
+				content: "                     8P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  84.9206349207% {
-				content: "                                                                                        888                                   ";}
+				content: "                    88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  85.7142857143% {
-				content: "                                                                                        888                                   ";}
-	  86.507936508% {
-				content: "                                                                                        888                                   ";}
+				content: "                    88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
+	  86.507936508%  {
+				content: "                    88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  87.3015873016% {
-				content: "                                                                                        888                                   ";}
+				content: "                    88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  88.0952380953% {
-				content: "                                                                                        888                                   ";}
+				content: "                8   88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  88.8888888889% {
-				content: "                                                                                        888                                   ";}
+				content: "               88   88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  89.6825396826% {
-				content: "                                                                                        888                                   ";}
+				content: "              Y88   88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  90.4761904762% {
-				content: "                                                                                        888                                   ";}
+				content: "              Y88   88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  91.2698412699% {
-				content: "                                                                                        888                                   ";}
+				content: "              Y88   88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  92.0634920635% {
-				content: "                                                                                        888                                   ";}
+				content: "           b  Y88   88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  92.8571428572% {
-				content: "                                                                                        888                                   ";}
+				content: "          8b  Y88   88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  93.6507936508% {
-				content: "                                                                                        888                                   ";}
+				content: "         Y8b  Y88   88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  94.4444444445% {
-				content: "                                                                                        888                                   ";}
+				content: "         Y8b  Y88   88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  95.2380952381% {
-				content: "                                                                                        888                                   ";}
+				content: "       b Y8b  Y88   88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  96.0317460318% {
-				content: "                                                                                        888                                   ";}
+				content: "      8b Y8b  Y88   88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  96.8253968254% {
-				content: "                                                                                        888                                   ";}
+				content: "     Y8b Y8b  Y88   88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  97.6190476191% {
-				content: "                                                                                        888                                   ";}
+				content: "   b Y8b Y8b  Y88   88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  98.4126984127% {
-				content: "                                                                                        888                                   ";}
+				content: "  8b Y8b Y8b  Y88   88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  99.2063492064% {
-				content: "                                                                                        888                                   ";}
+				content: " d8b Y8b Y8b  Y88   88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  99.4841269842% {
-				content: "                                                                                        888                                   ";}
+				content: " d8b Y8b Y8b  Y88   88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P ";}
 	  99.8015873016% {
-				content: "                                                                                        888                                   "}
+				content: " d8b Y8b Y8b  Y88   88P  Y88D 888 Y88    ,    888   888 888 888   , Y88   88P 888      Y8b Y     888 888 888  888   Y88   88P "}
 }
 
 textanifive::before {
     content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888 888  888    '88 88'  ";
-    animation: animat 2s;
+    animation: animat 1.75s;
 		color: oldlace;
 }
-/*100/126 calcuations not done yet */
+/*100/126*/
 @keyframes animat {
     0% {
-        content: "                                                                                                                              ";
+        content: "d                                                                                                                             ";
 				color: oldlace;}
     0.79365079365% {
-        content: "                                                                                                                              ";}
+        content: "d8                                                                                                                            ";}
     1.5873015873%  {
-        content: "                                                                                                                              ";}
+        content: "d88                                                                                                                           ";}
     2.38095238095% {
-        content: "                                                                                                                              ";}
+        content: "d888                                                                                                                          ";}
     3.1746031746%  {
-        content: "                                                                                                                              ";}
+        content: "d888b                                                                                                                         ";}
 	  3.96825396826% {
-        content: "                                                                                                                              ";}
+        content: "d888b                                                                                                                         ";}
 	  4.76190476191% {
-        content: "                                                                                                                              ";}
+        content: "d888b Y                                                                                                                       ";}
 	  5.55555555556% {
-        content: "                                                                                                                              ";}
+        content: "d888b Y8                                                                                                                      ";}
 	  6.34920634921% {
-        content: "                                                                                                                              ";}
+        content: "d888b Y8b                                                                                                                     ";}
 	  7.14285714286% {
-        content: "                                                                                                                              ";}
+        content: "d888b Y8b                                                                                                                     ";}
 	  7.93650793651% {
-        content: "                                                                                                                              ";}
+        content: "d888b Y8b Y                                                                                                                   ";}
 	  8.73015873016% {
-        content: "                                                                                                                              ";}
+        content: "d888b Y8b Y8                                                                                                                  ";}
 	  9.52380952381% {
-        content: "                                                                                                                              ";}
+        content: "d888b Y8b Y8b                                                                                                                 ";}
 		10.3174603175% {
-        content: "                                                                                                                              ";}
+        content: "d888b Y8b Y8b                                                                                                                 ";}
 	  11.1111111111% {
-        content: "                                                                                                                              ";}
+        content: "d888b Y8b Y8b                                                                                                                 ";}
 	  11.9047619048% {
-        content: "                                                                                                                              ";}
+        content: "d888b Y8b Y8b  '                                                                                                              ";}
 	  12.6984126984% {
-        content: "                                                                                                                              ";}
+        content: "d888b Y8b Y8b  '8                                                                                                             ";}
 	  13.4920634921% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88                                                                                                            ";}
 	  14.2857142857% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88                                                                                                            ";}
 	  15.0793650794% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 8                                                                                                          ";}
 	  15.873015873%  {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88                                                                                                         ";}
 	  16.6666666667% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'                                                                                                        ";}
 	  17.4603174603% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'                                                                                                        ";}
 	  18.253968254%  {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'                                                                                                        ";}
 	  19.8412698413% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d                                                                                                     ";}
 	  20.6349206349% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,                                                                                                    ";}
 	  21.4285714286% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,d                                                                                                   ";}
 	  22.2222222222% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP                                                                                                  ";}
 	  23.0158730159% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP                                                                                                  ";}
 	  23.8095238095% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .                                                                                                ";}
 	  24.6031746032% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .8                                                                                               ";}
 	  25.3968253968% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .88                                                                                              ";}
 	  26.1904761905% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888                                                                                             ";}
 	  26.9841269841% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888                                                                                             ";}
 	  27.7777777778% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888                                                                                             ";}
 	  28.5714285714% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '                                                                                          ";}
 	  29.3650793651% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '8                                                                                         ";}
 	  30.1587301587% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88                                                                                        ";}
 	  30.9523809524% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,                                                                                       ";}
 	  31.746031746%  {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e                                                                                      ";}
 	  32.5396825397% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8                                                                                     ";}
 	  33.3333333333% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'                                                                                    ";}
 	  34.126984127%  {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'                                                                                    ";}
 	  35.7142857143% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'                                                                                    ";}
 	  36.5079365079% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'                                                                                    ";}
 	  37.3015873016% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'                                                                                    ";}
 	  38.0952380952% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    8                                                                               ";}
 	  38.8888888889% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    88                                                                              ";}
 	  39.6825396826% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888                                                                             ";}
 	  40.4761904762% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888                                                                             ";}
 	  41.2698412699% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888                                                                             ";}
 	  42.0634920635% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888                                                                             ";}
 	  42.8571428572% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   8                                                                         ";}
 	  43.6507936508% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   88                                                                        ";}
 	  44.4444444445% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888                                                                       ";}
 	  45.2380952381% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888                                                                       ";}
 	  46.0317460318% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 8                                                                     ";}
 	  46.8253968254% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 88                                                                    ";}
 	  47.6190476191% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888                                                                   ";}
 	  48.4126984127% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888                                                                   ";}
 	  49.2063492064% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888                                                                   ";}
 	  50%            {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  '                                                                ";}
 	  50.7936507937% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'Y                                                               ";}
 	  51.5873015873% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'Ye                                                              ";}
 	  52.380952381%  {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'Yee                                                             ";}
 	  53.1746031746% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP                                                            ";}
 	  53.9682539683% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'                                                           ";}
 	  54.7619047619% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'                                                           ";}
 	  55.5555555556% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'                                                           ";}
 	  56.3492063492% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '                                                        ";}
 	  57.1428571429% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '8                                                       ";}
 	  57.9365079365% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88                                                      ";}
 	  58.7301587302% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88                                                      ";}
 	  59.5238095238% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 8                                                    ";}
 	  60.3174603175% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88                                                   ";}
 	  61.1111111111% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'                                                  ";}
 	  61.9047619048% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'                                                  ";}
 	  62.6984126984% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'                                                  ";}
 	  63.4920634921% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  8                                               ";}
 	  64.2857142857% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  88                                              ";}
 	  65.0793650794% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888                                             ";}
 	  65.873015873%  {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888                                             ";}
 	  66.6666666667% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888                                             ";}
 	  67.4603174603% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888                                             ";}
 	  68.253968254%  {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888                                             ";}
 	  69.0476190476% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888                                             ";}
 	  69.8412698413% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888                                             ";}
 	  70.6349206349% {
-				content: "                                                                                                                              ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888                                             ";}
 	  71.4285714286% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       8                                     ";}
 	  72.2222222222% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       88                                    ";}
 	  73.0158730159% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888                                   ";}
 	  73.8095238095% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888                                   ";}
 	  74.6031746032% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888                                   ";}
 	  75.3968253968% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888                                   ";}
 	  76.1904761905% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888                                   ";}
 	  76.9841269841% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888                                   ";}
 	  77.7777777778% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .                             ";}
 	  78.5714285714% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .8                            ";}
 	  79.3650793651% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .88                           ";}
 	  80.1587301588% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888                          ";}
 	  80.9523809524% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888                          ";}
 	  81.7460317461% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 8                        ";}
 	  82.5396825397% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 88                       ";}
 	  83.3333333334% {
-				content: "                                                                                        888                                   ";}
-	  84.126984127% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888                      ";}
+	  84.126984127%  {
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888                      ";}
 	  84.9206349207% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888 8                    ";}
 	  85.7142857143% {
-				content: "                                                                                        888                                   ";}
-	  86.507936508% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888 88                   ";}
+	  86.507936508%  {
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888 888                  ";}
 	  87.3015873016% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888 888                  ";}
 	  88.0952380953% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888 888                  ";}
 	  88.8888888889% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888 888  8               ";}
 	  89.6825396826% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888 888  88              ";}
 	  90.4761904762% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888 888  888             ";}
 	  91.2698412699% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888 888  888             ";}
 	  92.0634920635% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888 888  888             ";}
 	  92.8571428572% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888 888  888             ";}
 	  93.6507936508% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888 888  888             ";}
 	  94.4444444445% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888 888  888    '        ";}
 	  95.2380952381% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888 888  888    '8       ";}
 	  96.0317460318% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888 888  888    '88      ";}
 	  96.8253968254% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888 888  888    '88      ";}
 	  97.6190476191% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888 888  888    '88 8    ";}
 	  98.4126984127% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888 888  888    '88 88   ";}
 	  99.2063492064% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888 888  888    '88 88'  ";}
 	  99.4841269842% {
-				content: "                                                                                        888                                   ";}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888 888  888    '88 88'  ";}
 	  99.8015873016% {
-				content: "                                                                                        888                                   "}
+				content: "d888b Y8b Y8b  '88 88'  d,dP .888  '88,e8'    888   888 888  'YeeP'  '88 88'  888       888     .888 888 888  888    '88 88'  "}
 }
 
 textanisix::before {
     content: "                                                                                        888                                   ";
-    animation: animatrz 2s;
+    animation: animatrz 1.75s;
 		color: oldlace;
 }
-/*100/126 calcuations not done yet */
+/*100/126*/
 @keyframes animatrz {
     0% {
         content: "                                                                                                                              ";
@@ -2259,6 +2259,268 @@ textanisix::before {
 	  26.9841269841% {
 				content: "                                                                                                                              ";}
 	  27.7777777778% {
+				content: "                                                                                          8                                   ";}
+	  28.5714285714% {
+				content: "                                                                                         88                                   ";}
+	  29.3650793651% {
+				content: "                                                                                        888                                   ";}
+	  30.1587301587% {
+				content: "                                                                                        888                                   ";}
+	  30.9523809524% {
+				content: "                                                                                        888                                   ";}
+	  31.746031746%  {
+				content: "                                                                                        888                                   ";}
+	  32.5396825397% {
+				content: "                                                                                        888                                   ";}
+	  33.3333333333% {
+				content: "                                                                                        888                                   ";}
+	  34.126984127%  {
+				content: "                                                                                        888                                   ";}
+	  35.7142857143% {
+				content: "                                                                                        888                                   ";}
+	  36.5079365079% {
+				content: "                                                                                        888                                   ";}
+	  37.3015873016% {
+				content: "                                                                                        888                                   ";}
+	  38.0952380952% {
+				content: "                                                                                        888                                   ";}
+	  38.8888888889% {
+				content: "                                                                                        888                                   ";}
+	  39.6825396826% {
+				content: "                                                                                        888                                   ";}
+	  40.4761904762% {
+				content: "                                                                                        888                                   ";}
+	  41.2698412699% {
+				content: "                                                                                        888                                   ";}
+	  42.0634920635% {
+				content: "                                                                                        888                                   ";}
+	  42.8571428572% {
+				content: "                                                                                        888                                   ";}
+	  43.6507936508% {
+				content: "                                                                                        888                                   ";}
+	  44.4444444445% {
+				content: "                                                                                        888                                   ";}
+	  45.2380952381% {
+				content: "                                                                                        888                                   ";}
+	  46.0317460318% {
+				content: "                                                                                        888                                   ";}
+	  46.8253968254% {
+				content: "                                                                                        888                                   ";}
+	  47.6190476191% {
+				content: "                                                                                        888                                   ";}
+	  48.4126984127% {
+				content: "                                                                                        888                                   ";}
+	  49.2063492064% {
+				content: "                                                                                        888                                   ";}
+	  50%            {
+				content: "                                                                                        888                                   ";}
+	  50.7936507937% {
+				content: "                                                                                        888                                   ";}
+	  51.5873015873% {
+				content: "                                                                                        888                                   ";}
+	  52.380952381%  {
+				content: "                                                                                        888                                   ";}
+	  53.1746031746% {
+				content: "                                                                                        888                                   ";}
+	  53.9682539683% {
+				content: "                                                                                        888                                   ";}
+	  54.7619047619% {
+				content: "                                                                                        888                                   ";}
+	  55.5555555556% {
+				content: "                                                                                        888                                   ";}
+	  56.3492063492% {
+				content: "                                                                                        888                                   ";}
+	  57.1428571429% {
+				content: "                                                                                        888                                   ";}
+	  57.9365079365% {
+				content: "                                                                                        888                                   ";}
+	  58.7301587302% {
+				content: "                                                                                        888                                   ";}
+	  59.5238095238% {
+				content: "                                                                                        888                                   ";}
+	  60.3174603175% {
+				content: "                                                                                        888                                   ";}
+	  61.1111111111% {
+				content: "                                                                                        888                                   ";}
+	  61.9047619048% {
+				content: "                                                                                        888                                   ";}
+	  62.6984126984% {
+				content: "                                                                                        888                                   ";}
+	  63.4920634921% {
+				content: "                                                                                        888                                   ";}
+	  64.2857142857% {
+				content: "                                                                                        888                                   ";}
+	  65.0793650794% {
+				content: "                                                                                        888                                   ";}
+	  65.873015873%  {
+				content: "                                                                                        888                                   ";}
+	  66.6666666667% {
+				content: "                                                                                        888                                   ";}
+	  67.4603174603% {
+				content: "                                                                                        888                                   ";}
+	  68.253968254%  {
+				content: "                                                                                        888                                   ";}
+	  69.0476190476% {
+				content: "                                                                                        888                                   ";}
+	  69.8412698413% {
+				content: "                                                                                        888                                   ";}
+	  70.6349206349% {
+				content: "                                                                                        888                                   ";}
+	  71.4285714286% {
+				content: "                                                                                        888                                   ";}
+	  72.2222222222% {
+				content: "                                                                                        888                                   ";}
+	  73.0158730159% {
+				content: "                                                                                        888                                   ";}
+	  73.8095238095% {
+				content: "                                                                                        888                                   ";}
+	  74.6031746032% {
+				content: "                                                                                        888                                   ";}
+	  75.3968253968% {
+				content: "                                                                                        888                                   ";}
+	  76.1904761905% {
+				content: "                                                                                        888                                   ";}
+	  76.9841269841% {
+				content: "                                                                                        888                                   ";}
+	  77.7777777778% {
+				content: "                                                                                        888                                   ";}
+	  78.5714285714% {
+				content: "                                                                                        888                                   ";}
+	  79.3650793651% {
+				content: "                                                                                        888                                   ";}
+	  80.1587301588% {
+				content: "                                                                                        888                                   ";}
+	  80.9523809524% {
+				content: "                                                                                        888                                   ";}
+	  81.7460317461% {
+				content: "                                                                                        888                                   ";}
+	  82.5396825397% {
+				content: "                                                                                        888                                   ";}
+	  83.3333333334% {
+				content: "                                                                                        888                                   ";}
+	  84.126984127%  {
+				content: "                                                                                        888                                   ";}
+	  84.9206349207% {
+				content: "                                                                                        888                                   ";}
+	  85.7142857143% {
+				content: "                                                                                        888                                   ";}
+	  86.507936508%  {
+				content: "                                                                                        888                                   ";}
+	  87.3015873016% {
+				content: "                                                                                        888                                   ";}
+	  88.0952380953% {
+				content: "                                                                                        888                                   ";}
+	  88.8888888889% {
+				content: "                                                                                        888                                   ";}
+	  89.6825396826% {
+				content: "                                                                                        888                                   ";}
+	  90.4761904762% {
+				content: "                                                                                        888                                   ";}
+	  91.2698412699% {
+				content: "                                                                                        888                                   ";}
+	  92.0634920635% {
+				content: "                                                                                        888                                   ";}
+	  92.8571428572% {
+				content: "                                                                                        888                                   ";}
+	  93.6507936508% {
+				content: "                                                                                        888                                   ";}
+	  94.4444444445% {
+				content: "                                                                                        888                                   ";}
+	  95.2380952381% {
+				content: "                                                                                        888                                   ";}
+	  96.0317460318% {
+				content: "                                                                                        888                                   ";}
+	  96.8253968254% {
+				content: "                                                                                        888                                   ";}
+	  97.6190476191% {
+				content: "                                                                                        888                                   ";}
+	  98.4126984127% {
+				content: "                                                                                        888                                   ";}
+	  99.2063492064% {
+				content: "                                                                                        888                                   ";}
+	  99.4841269842% {
+				content: "                                                                                        888                                   ";}
+	  99.8015873016% {
+				content: "                                                                                        888                                   "}
+}
+
+textaniseven::before {
+    content: "                                                                                        888                                   ";
+    animation: animatrzz 1.75s;
+		color: oldlace;
+}
+/*100/126*/
+@keyframes animatrzz {
+    0% {
+        content: "                                                                                                                              ";
+				color: oldlace;}
+    0.79365079365% {
+        content: "                                                                                                                              ";}
+    1.5873015873%  {
+        content: "                                                                                                                              ";}
+    2.38095238095% {
+        content: "                                                                                                                              ";}
+    3.1746031746%  {
+        content: "                                                                                                                              ";}
+	  3.96825396826% {
+        content: "                                                                                                                              ";}
+	  4.76190476191% {
+        content: "                                                                                                                              ";}
+	  5.55555555556% {
+        content: "                                                                                                                              ";}
+	  6.34920634921% {
+        content: "                                                                                                                              ";}
+	  7.14285714286% {
+        content: "                                                                                                                              ";}
+	  7.93650793651% {
+        content: "                                                                                                                              ";}
+	  8.73015873016% {
+        content: "                                                                                                                              ";}
+	  9.52380952381% {
+        content: "                                                                                                                              ";}
+		10.3174603175% {
+        content: "                                                                                                                              ";}
+	  11.1111111111% {
+        content: "                                                                                                                              ";}
+	  11.9047619048% {
+        content: "                                                                                                                              ";}
+	  12.6984126984% {
+        content: "                                                                                                                              ";}
+	  13.4920634921% {
+				content: "                                                                                                                              ";}
+	  14.2857142857% {
+				content: "                                                                                                                              ";}
+	  15.0793650794% {
+				content: "                                                                                                                              ";}
+	  15.873015873%  {
+				content: "                                                                                                                              ";}
+	  16.6666666667% {
+				content: "                                                                                                                              ";}
+	  17.4603174603% {
+				content: "                                                                                                                              ";}
+	  18.253968254%  {
+				content: "                                                                                                                              ";}
+	  19.8412698413% {
+				content: "                                                                                                                              ";}
+	  20.6349206349% {
+				content: "                                                                                                                              ";}
+	  21.4285714286% {
+				content: "                                                                                                                              ";}
+	  22.2222222222% {
+				content: "                                                                                                                              ";}
+	  23.0158730159% {
+				content: "                                                                                                                              ";}
+	  23.8095238095% {
+				content: "                                                                                                                              ";}
+	  24.6031746032% {
+				content: "                                                                                                                              ";}
+	  25.3968253968% {
+				content: "                                                                                                                              ";}
+	  26.1904761905% {
+				content: "                                                                                                                              ";}
+	  26.9841269841% {
+				content: "                                                                                                                              ";}
+	  27.7777777778% {
 				content: "                                                                                                                              ";}
 	  28.5714285714% {
 				content: "                                                                                                                              ";}
@@ -2367,9 +2629,9 @@ textanisix::before {
 	  70.6349206349% {
 				content: "                                                                                                                              ";}
 	  71.4285714286% {
-				content: "                                                                                        888                                   ";}
+				content: "                                                                                        8                                     ";}
 	  72.2222222222% {
-				content: "                                                                                        888                                   ";}
+				content: "                                                                                        88                                    ";}
 	  73.0158730159% {
 				content: "                                                                                        888                                   ";}
 	  73.8095238095% {
@@ -2398,13 +2660,13 @@ textanisix::before {
 				content: "                                                                                        888                                   ";}
 	  83.3333333334% {
 				content: "                                                                                        888                                   ";}
-	  84.126984127% {
+	  84.126984127%  {
 				content: "                                                                                        888                                   ";}
 	  84.9206349207% {
 				content: "                                                                                        888                                   ";}
 	  85.7142857143% {
 				content: "                                                                                        888                                   ";}
-	  86.507936508% {
+	  86.507936508%  {
 				content: "                                                                                        888                                   ";}
 	  87.3015873016% {
 				content: "                                                                                        888                                   ";}
