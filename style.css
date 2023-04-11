@@ -17,7 +17,7 @@ a:visited {
 }
 
 a:hover {
-  color: orangered;
+  color: red;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -60,9 +60,9 @@ a:active {
     display: block;
 }
 
-.dropdown-content a:hover {text-decoration: underline; color: lawngreen}
+.dropdown-content a:hover {text-decoration: underline; color: red}
 .dropdown:hover .dropdown-content {display:block;}
-.dropdown:hover .dropbtn {background-color: black;color: lawngreen;text-decoration: underline;}
+.dropdown:hover .dropbtn {background-color: black;color: red;text-decoration: underline;}
 
 /* TITLES =================== */ 
 
