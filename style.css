@@ -30,7 +30,6 @@ a:active {
 
 /* DROP DOWN MENU CODE =================== */ 
 
-
 .dropbtn {
     background-color: black;
     color: orangered;
@@ -64,11 +63,36 @@ a:active {
 .dropdown:hover .dropdown-content {display:block;}
 .dropdown:hover .dropbtn {background-color: black;color: red;text-decoration: underline;}
 
+/*TEXT DROP DOWN BUTTION =====================*/
+
+:root{
+  --animationTime: 1s;
+}
+  .hidden {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity var(--animationTime) ease, max-height var(--animationTime) ease;
+  }
+
+  .expanded{
+    opacity: 1;
+    max-height: 10000px;
+    transition: opacity (--animationTime) ease, max-height (--animationTime) ease;
+  }
+
 /* TITLES =================== */ 
 
 mark {
   background-color: black; 
 	color: yellow;
+	font-family: AirAmericanaDEMO-Light
+}
+
+spmark {
+  background-color: black; 
+	color: yellow;
+	margin-left: 152.5px;
 	font-family: AirAmericanaDEMO-Light
 }
 

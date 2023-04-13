@@ -45,29 +45,58 @@ PAPER</a> ----------
              <a href="./Creator.html">ABOUT THE CREATOR</a> | <aniemotwentyeight></aniemotwentyeight>
              -------------------------------------------------------------------------------------------------------------------------------------------
              <mark>OTHER RESOURCES</mark>
-						 
+
              now id love to sit here and tell you my site can teach you all youd want to know about music
              but alas that would be a lie so heres a list great resources to help you learn
-						 
+
              -------------------------------------------------------------------------------------------------------------------------------------------
-						 
-             <mark>WEBSITES</mark> <img src="Images/websites_logo_1.png" width="22px" height="22px"/>
-						 
-             <a href="https://www.musictheory.net/" target="_blank">musictheory.net</a>            
-						 
-             <a href="http://www.musictheory.org.uk/" target="_blank">musictheory.org.uk</a>   
-						 
+             <div style="display:flex; gap:10px;">
+             <spmark>WEBSITES</spmark> <img src="Images/websites_logo_1.png" width="22px" height="22px"/>
+             <button id="add" onclick="toggle(this, 'container', 'expanded', 'OFF', 'ON')">OFF</button></div><div id="container" class="hidden">
+             <a href="https://www.musictheory.net/" target="_blank">musictheory.net</a>
+
+             <a href="http://www.musictheory.org.uk/" target="_blank">musictheory.org.uk</a></div>
              -------------------------------------------------------------------------------------------------------------------------------------------
-						 
-             <mark>YOUTUBE CHANNELS</mark> <img src="Images/youtube_logo_1.png" width="22px" height="22px"/>
-						 
+             <div style="display:flex; gap:10px;">
+             <spmark>YOUTUBE CHANNELS</spmark> <img src="Images/youtube_logo_1.png" width="22px" height="22px"/>
+             <button id="add" onclick="toggle(this, 'container2', 'expanded', 'OFF', 'ON')">OFF</button></div><div id="container2" class="hidden">
              <a href="https://www.youtube.com/@andrewhuang" target="_blank">Andrew Huang</a> and his amazing beginners to music theory video <a href="https://youtu.be/rgaTLrZGlk0" target="_blank">(youtube link)</a>  
-						 
-             <a href="https://www.youtube.com/@AdamNeely" target="_blank">Adam Neely</a> 
-						 
-             <a href="https://www.youtube.com/@jazztutorial" target="_blank">Julian Bradley</a> 
-						 
+
+             <a href="https://www.youtube.com/@AdamNeely" target="_blank">Adam Neely</a> - Video essays, lessons & vlogs in music and music theory.
+             NYC-based bass player/composer Adam Neely
+
+             <a href="https://www.youtube.com/@jazztutorial" target="_blank">Julian Bradley</a> - Julian Bradley is a jazz pianist and educator from the U.K.
+
+             <a href="https://www.youtube.com/@NoahKellman/videos" target="_blank">Noah Kellman</a> - Award-winning jazz pianist Noah Kellman’s makes tutorials 
+             about modern jazz piano and neo soul harmony.
+
+             <a href="https://www.youtube.com/@TonyWinston" target="_blank">Tony Winston</a> - Over 400 Jazz and Classical piano tutorials organized by subject in playlists
+
+             <a href="https://www.youtube.com/@DavidBennettPiano" target="_blank">David Bennett Piano</a> - UK based pianist that makes music theory videos
+
+             <a href="https://www.youtube.com/@8bitMusicTheory" target="_blank">8-bit Music Theory</a> - Makes videos based around music theory used in videogame soundtracks</div>
              -------------------------------------------------------------------------------------------------------------------------------------------
+						 <div style="display:flex; gap:10px;">
+             <spmark>BOOKS</spmark>
+             <button id="add" onclick="toggle(this, 'container3', 'expanded', 'OFF', 'ON')">OFF</button></div><div id="container3" class="hidden">
+             <a href="https://doku.pub/documents/levinemarkthejazztheorybookpdf-4qzdy8r39glk" target="_blank">The Jazz Theory Book by Mark Levine</a> - its preety much the jazz bible as one of my teachers put it </div>
+             -------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <h2>
@@ -81,3 +110,11 @@ body {
 }
 
 </style>
+
+<script>
+  function toggle (thisEl, dropdowncontentId, classN, t1, t2){
+    let dropdown = document.getElementById(dropdowncontentId);
+    dropdown.classList.toggle(classN);
+    thisEl.innerHTML = (dropdown.classList.contains(classN)==true) ? t2 : t1;}
+</script>
+
