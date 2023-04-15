@@ -55,7 +55,6 @@ PAPER</a> ----------
              to how chords are written depending on the chord and sometimes it's legit just written by the scale degrees and
              you have to assume the chords but most of the time there in major if not stated otherwise
 
-
              Major7th / Maj7th / △7th / △7 / M7 (captial)                                    
                                                                                 
              Minor7th / Min7th / m7 (not capital)                                             
@@ -348,8 +347,8 @@ PAPER</a> ----------
              1-7-4-3-5 and the chord inversion only really changed space twice    
                                                                                               
              1maj-1+16-17                                                                     
-             The ascending augmented progression here's a graph to help you ---.               
-                                                                               v               
+             The ascending augmented progression here's a graph to help you
+             <div style="display:flex; gap:10px;">             EXAMPLE OF HOW YOU COULD PLAY IT <button id="add" onclick="toggle(this, 'container30', 'expanded', '⇧', '⇩')">⇧</button></div><div id="container30" class="hidden">                      
                _____________________________________________________________________            
                |▓▓| | | |▓▓|  | |▓| | | |  |  | | | |  |  | | | | | |  |  | | | |  |            
                |▓▓| | | |▓▓|  | |▓| | | |  |  | | | |  |  | | | | | |  |  | | | |  |            
@@ -385,7 +384,7 @@ PAPER</a> ----------
                |▓▓▓|   |▓▓▓|   |   |   `   |   |   |   |   |   |   |   |   |   |   |            
                |▓▓▓|   |▓▓▓|   |   |   |   |   |   |   |   |   |   |   |   |   |   |            
                |▓▓▓|   |▓▓▓|   |   |   |   |   |   |   |   |   |   |   |   |   |   |            
-                ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ```             
+                ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ```</div>          
              -------------------------------------------------------------------------------------------------------------------------------------------
 
 </pre>
@@ -425,3 +424,10 @@ body {
 
 </body>
 </html>
+
+<script>
+  function toggle (thisEl, dropdowncontentId, classN, t1, t2){
+    let dropdown = document.getElementById(dropdowncontentId);
+    dropdown.classList.toggle(classN);
+    thisEl.innerHTML = (dropdown.classList.contains(classN)==true) ? t2 : t1;}
+</script>
